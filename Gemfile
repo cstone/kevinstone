@@ -26,6 +26,7 @@ gem 'carrierwave'
 gem 'fog'
 gem 'rmagick', '~>2.13.2', :require => 'RMagick'
 gem 'figaro'
+gem 'formtastic-bootstrap'
 
 group :development do
   gem 'better_errors'
