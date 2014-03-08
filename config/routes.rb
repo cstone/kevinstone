@@ -1,6 +1,9 @@
 Kevinstone::Application.routes.draw do
 
 
+  resources :photos
+
+
   resources :dynamic_contents
   resources :events
   resources :pages, except: :show
