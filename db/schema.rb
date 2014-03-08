@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140308221553) do
+ActiveRecord::Schema.define(:version => 20140308225613) do
 
   create_table "dynamic_contents", :force => true do |t|
     t.string   "key"
@@ -44,5 +44,13 @@ ActiveRecord::Schema.define(:version => 20140308221553) do
   end
 
   add_index "pages", ["permalink"], :name => "index_pages_on_permalink"
+
+  create_table "photos", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "photo_image"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
 end
