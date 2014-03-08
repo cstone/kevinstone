@@ -1,4 +1,7 @@
 Kevinstone::Application.routes.draw do
+  resources :pages
+
+
   resources :dynamic_contents
 
 
