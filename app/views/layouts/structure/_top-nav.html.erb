@@ -11,7 +11,7 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#">Bio</a></li>
+        <li class=<%= cpa(page_path('bio')) %>><%= link_to 'Bio', page_path('bio') %></li>
         <li><%= link_to 'Photos', '#' %></li>
         <li><%= link_to 'Videos', '#' %></li>
         <li class=<%= cpa(events_path) %>><%= link_to 'Where\'s Kevin', events_path %></li>

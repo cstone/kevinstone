@@ -1,15 +1,11 @@
 Kevinstone::Application.routes.draw do
-  resources :pages
 
 
   resources :dynamic_contents
-
-
-  get "home/index"
-
   resources :events
-
+  resources :pages, except: :show
   root :to => 'home#index'
+  get ':id', to: 'pages#show', as: :page
 
 
   # The priority is based upon order of creation:
