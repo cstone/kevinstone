@@ -1,39 +1,19 @@
-<h1>Listing events</h1>
-
-<table>
+<h3>Where's Kevin</h3>
+<table width="100%" class="table">
+  <thead>
   <tr>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Venue</th>
-    <th>Address</th>
-    <th>City</th>
-    <th>State</th>
-    <th>Zip</th>
-    <th>Url</th>
-    <th>Time</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th width="25%">When</th>
+    <th width="60%">Event</th>
+    <th width="15%"></th>
   </tr>
-
-<% @events.each do |event| %>
-  <tr>
-    <td><%= event.title %></td>
-    <td><%= event.description %></td>
-    <td><%= event.venue %></td>
-    <td><%= event.address %></td>
-    <td><%= event.city %></td>
-    <td><%= event.state %></td>
-    <td><%= event.zip %></td>
-    <td><%= event.url %></td>
-    <td><%= event.time %></td>
-    <td><%= link_to 'Show', event %></td>
-    <td><%= link_to 'Edit', edit_event_path(event) %></td>
-    <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
+  </thead>
+  <tbody>
+  <% @events.each do |event| %>
+      <tr>
+        <td><%= link_to event.time, event %></td>
+        <td><%= link_to event.title, event %></td>
+        <td align="right"><%= link_to 'More Info', event, class: '' %></td>
+      </tr>
+  <% end %>
+  </tbody>
 </table>
-
-<br />
-
-<%= link_to 'New Event', new_event_path %>
