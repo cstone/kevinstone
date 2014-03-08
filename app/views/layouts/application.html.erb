@@ -38,13 +38,9 @@
 
 <div class="container">
 
-  <% if current_page?(root_path) %>
-      <%= render 'layouts/structure/jumbotron' %>
-  <% end %>
 
 
-
-  <div class="content-container">
+  <div class="content-container content-container-margin-top">
     <div class="row">
       <div class=" col-md-8 col-lg-9">
         <%= yield %>
