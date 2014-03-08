@@ -2,7 +2,10 @@
 /* CSS Document */
 @import url(http://fonts.googleapis.com/css?family=Audiowide);
 
-
+$primary-color: #9C8354;
+$secondary-color: #4E5D6C;
+$tertiary-color: #9C8354;
+$content-background: #F1F1F1;
 
 
 /*************************************
@@ -74,29 +77,32 @@
 
 .content-container {
   padding: 15px;
-  background-color: #F1F1F1;
+  background-color: $content-background;
   color: #2b3e50;
+  a {
+    color: $tertiary-color;
+  }
 }
 
 .jumbotron {
   margin-bottom: 0;
-  background:url(../img/background.jpg) no-repeat;
+  background:url(https://s3.amazonaws.com/kevinjstone/imgs/background.jpg) no-repeat;
   min-height: 360px;
+  p {
+    /*color: #2B3E50;*/
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    color: #485563;
+    font-size: 26px;
+  }
 }
 
-.jumbotron p {
-  /*color: #2B3E50;*/
-  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-  color: #485563;
-  font-size: 26px;
-}
 .kevinname {
   color: #2B3E50;
   font-size: 46px;
   font-family: 'Audiowide', cursive;
 }
 .panel-body {
-  color: #FFFFFF;
+  color: $content-background;
 }
 
 .content-container-margin-top {
@@ -130,21 +136,20 @@
 **************************************/
 footer {
   padding: 15px;
-  background-color: #DF691A;
+  background-color: $tertiary-color;
+  p {
+    padding-top: 10px;
+  }
+  a {
+    /*color: #428BCA;*/
+    color: $content-background;
+  }
+  .nav > li > a:hover {
+    background-color: $content-background;
+    color: $tertiary-color;
+  }
 }
 
-footer p {
-  padding-top: 10px;
-}
-
-footer a {
-  /*color: #428BCA;*/
-  color: #FFFFFF;
-}
-
-footer .nav > li > a:hover {
-  background-color: #FFFFFF;
-}
 
 /*************************************
 **************************************
