@@ -1,4 +1,7 @@
 Kevinstone::Application.routes.draw do
+  resources :dynamic_contents
+
+
   get "home/index"
 
   resources :events

@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Key:</b>
+  <%= @dynamic_content.key %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @dynamic_content.title %>
+</p>
+
+<p>
+  <b>Value:</b>
+  <%= @dynamic_content.value %>
+</p>
+
+
+<%= link_to 'Edit', edit_dynamic_content_path(@dynamic_content) %> |
+<%= link_to 'Back', dynamic_contents_path %>
