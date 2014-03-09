@@ -3,6 +3,6 @@
 <p>&nbsp;</p>
 <p><iframe width="560" height="315" src="//www.youtube.com/embed/<%= @video.source %>?rel=0" frameborder="0" allowfullscreen></iframe></p>
 
-<hr>
+<% if @video.allow_comments %>
 <%= render 'layouts/structure/disqus-thread' %>
-
+<% end %>
