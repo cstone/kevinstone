@@ -1,8 +1,9 @@
 <h4><%= @photo.title %></h4>
+<p><small><%= time_ago_in_words(@photo.created_at) %> ago</small></p>
 <p><%= image_tag @photo.photo_image, class: 'img-responsive' %></p>
 
-
+<br/>
 <p><%= @photo.description %></p>
-
+<br/>
 
 <%= render 'layouts/structure/disqus-thread' %>

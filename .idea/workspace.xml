@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/photos_image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/photos_image_uploader.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/photos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/photos/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -53,7 +52,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/photos/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="59" selection-start="88" selection-end="88" vertical-scroll-proportion="0.042016808" vertical-offset="0" max-vertical-offset="357">
+            <state line="1" column="69" selection-start="98" selection-end="98" vertical-scroll-proportion="0.042016808" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -739,7 +738,11 @@
       <created>1394386599441</created>
       <updated>1394386599441</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add img-responsive class to photos show page">
+      <created>1394387157675</created>
+      <updated>1394387157675</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -800,7 +803,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add bootstrap layout to application" />
     <MESSAGE value="Add events scaffold" />
     <MESSAGE value="Add home controller" />
     <MESSAGE value="Update events index page" />
@@ -825,7 +827,8 @@
     <MESSAGE value="Revised top navigation" />
     <MESSAGE value="Add floating image on right to pages" />
     <MESSAGE value="Modify show page for pictures." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify show page for pictures." />
+    <MESSAGE value="Add img-responsive class to photos show page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add img-responsive class to photos show page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1183,7 +1186,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/photos/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="59" selection-start="88" selection-end="88" vertical-scroll-proportion="0.042016808" vertical-offset="0" max-vertical-offset="357">
+        <state line="1" column="69" selection-start="98" selection-end="98" vertical-scroll-proportion="0.042016808" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
