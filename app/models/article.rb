@@ -1,5 +1,5 @@
 class Article < ActiveRecord::Base
-  attr_accessible :article_image, :body, :title, :remove_article_image
+  attr_accessible :article_image, :body, :title, :remove_article_image, :allow_comments
 
   mount_uploader :article_image, ArticleImageUploader
 
