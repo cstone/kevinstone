@@ -121,6 +121,12 @@ $white: #FFFFFF;
 }
 .panel-body {
   color: $content-background;
+  a {
+    color: $white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .content-container-margin-top {
