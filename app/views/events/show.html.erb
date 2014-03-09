@@ -1,8 +1,17 @@
-<div class="fancytitle"><%= @event.title %></div>
-<table width="80%" class="table">
+<h3><%= @event.title %></h3>
+<p><%= @event.time %> <% if @event.venue %>at <%= @event.venue %><% end %></p>
+<p><%= simple_format @event.description %></p>
+<% if @event.url %>
+    <p><%= link_to @event.url, @event.url %></p>
+<% end %>
+<table class="table table-bordered">
   <tr>
-    <td width="15%"><strong>When:</strong></td>
-    <td width="85%"><%= @event.time %></td>
+    <td><strong>What:</strong></td>
+    <td><%= @event.title %></td>
+  </tr>
+  <tr>
+    <td width="8%"><strong>When:</strong></td>
+    <td width="92%"><%= @event.time %></td>
   </tr>
   <% if !@event.venue.empty? %>
       <tr>
@@ -17,19 +26,15 @@
       </tr>
   <% end %>
   <% if !@event.description.empty? %>
-      <tr>
-        <td><strong>Description:</strong></td>
-        <td><%= simple_format @event.description %></td>
-      </tr>
   <% end %>
   <% if !@event.url.empty? %>
-      <tr>
-        <td><strong>Website:</strong></td>
-        <td><%= link_to @event.url, @event.url %></td>
-      </tr>
   <% end %>
 
 </table>
 <p class="text-right"><%= link_to 'Back to all of Kevin\'s events', events_path, class: '' %></p>
 <hr>
 <%= render 'layouts/structure/disqus-thread' %>
+
+
+
+

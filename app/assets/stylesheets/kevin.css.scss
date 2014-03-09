@@ -6,6 +6,7 @@ $primary-color: #9C8354;
 $secondary-color: #4E5D6C;
 $tertiary-color: #9C8354;
 $content-background: #F1F1F1;
+$white: #FFFFFF;
 
 
 /*************************************
@@ -83,6 +84,20 @@ $content-background: #F1F1F1;
     color: $tertiary-color;
     text-decoration: none;
   }
+  .btn-primary {
+    color: $content-background;
+    background-color: $tertiary-color;
+    border-color: transparent;
+    a {
+      color: $content-background;
+    }
+    &:hover {
+      background-color: darken($tertiary-color, 5%);
+    }
+  }
+  table {
+    font-size: 15px;
+  }
 }
 
 .jumbotron {
@@ -131,6 +146,32 @@ $content-background: #F1F1F1;
 
 
 
+/*************************************
+**************************************
+**************************************
+
+     BEGIN BUTTON STYLES
+
+**************************************
+**************************************
+**************************************/
+
+
+
+
+/*************************************
+**************************************
+**************************************
+
+     END BUTTON STYLES
+
+**************************************
+**************************************
+**************************************/
+
+
+
+
 
 /*************************************
 **************************************
@@ -150,10 +191,6 @@ footer {
     :hover {
       color: #FFFFFF;
     }
-  }
-  .nav > li > a:hover {
-    background-color: $content-background;
-    color: $tertiary-color;
   }
 }
 
