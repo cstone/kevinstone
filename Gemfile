@@ -27,6 +27,7 @@ gem 'fog'
 gem 'rmagick', '~>2.13.2', :require => 'RMagick'
 gem 'figaro'
 gem 'formtastic-bootstrap'
+gem 'will_paginate', '~> 3.0'
 
 group :development do
   gem 'better_errors'
