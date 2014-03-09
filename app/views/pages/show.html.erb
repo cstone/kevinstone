@@ -1,2 +1,5 @@
 <h3><%= @page.name %></h3>
+<% if @page.page_image.url %>
+<%= image_tag @page.page_image.url, class: 'img-float-right' %>
+<% end %>
 <%= simple_format @page.content %>

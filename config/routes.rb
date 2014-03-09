@@ -6,10 +6,10 @@ Kevinstone::Application.routes.draw do
   resources :photos
   resources :dynamic_contents
   resources :events
-  resources :pages, except: :show
+  resources :pages, except: [:show]
   root :to => 'home#index'
   match 'blog', to: 'articles#index', as: :blog
-  get ':id', to: 'pages#show', as: :page
+  match ':id', to: 'pages#show', as: :page
 
 
   # The priority is based upon order of creation:

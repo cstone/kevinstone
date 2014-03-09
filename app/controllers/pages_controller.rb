@@ -56,7 +56,7 @@ class PagesController < ApplicationController
   # PUT /pages/1
   # PUT /pages/1.json
   def update
-    @page = Page.find_by_permalink!(params[:id])
+    @page = Page.find_by_permalink!(params[:page])
 
     respond_to do |format|
       if @page.update_attributes(params[:page])
