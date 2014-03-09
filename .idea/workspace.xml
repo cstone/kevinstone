@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/article.rb" afterPath="$PROJECT_DIR$/app/models/article.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/article_image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/article_image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -66,7 +63,7 @@
       <file leaf-file-name="article_image_uploader.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/uploaders/article_image_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="3" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.18435754" vertical-offset="549" max-vertical-offset="1110">
+            <state line="47" column="33" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.43575418" vertical-offset="549" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -102,7 +99,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20565">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20715">
               <folding />
             </state>
           </provider>
@@ -184,8 +181,8 @@
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
-        <option value="$PROJECT_DIR$/app/uploaders/article_image_uploader.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/uploaders/article_image_uploader.rb" />
       </list>
     </option>
   </component>
@@ -920,7 +917,11 @@
       <created>1394399273543</created>
       <updated>1394399273543</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Add thumbnail to blog images">
+      <created>1394400092997</created>
+      <updated>1394400092997</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -981,7 +982,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Fix spacing on photos show page" />
     <MESSAGE value="Restrict disqus comments on video show page" />
     <MESSAGE value="Add relative time to videos show page" />
     <MESSAGE value="Change video heading from h3 to h4" />
@@ -1006,7 +1006,8 @@
     <MESSAGE value="Add article image uploader" />
     <MESSAGE value="Update articles show page." />
     <MESSAGE value="Update blog index page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update blog index page." />
+    <MESSAGE value="Add thumbnail to blog images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add thumbnail to blog images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1364,7 +1365,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/uploaders/article_image_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="3" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.18435754" vertical-offset="549" max-vertical-offset="1110">
+        <state line="47" column="33" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.43575418" vertical-offset="549" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
