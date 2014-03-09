@@ -3,4 +3,5 @@ class Event < ActiveRecord::Base
 
 
   scope :upcoming, where("time >= ?", Time.now).order("time")
+  scope :next_three, where("time >= ?", Time.now).order("time").limit(3)
 end
