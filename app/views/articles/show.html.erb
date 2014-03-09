@@ -5,5 +5,6 @@
 <% end %>
 <%= simple_format(@article.body) %></p>
 <p><%= link_to 'Back to my blog', articles_path %></p>
-
+<% if @article.allow_comments %>
 <%= render 'layouts/structure/disqus-thread' %>
+<% end %>
