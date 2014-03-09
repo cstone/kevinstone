@@ -1,7 +1,7 @@
 <h3><%= @article.title %></h3>
 <p><i>Posted <%= time_ago_in_words(@article.created_at) %> ago</i></p>
 <p><% if @article.article_image.url %>
-    <%= image_tag @article.article_image.url, class: 'img-float-right' %>
+    <%= image_tag @article.article_image.url, class: 'img-float-right img-responsive' %>
 <% end %>
 <%= simple_format(@article.body) %></p>
 <p><%= link_to 'Back to my blog', articles_path %></p>
