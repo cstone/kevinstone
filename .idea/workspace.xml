@@ -51,7 +51,7 @@
       <file leaf-file-name="_top-nav.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.5479042" vertical-offset="132" max-vertical-offset="570">
+            <state line="24" column="111" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.6826347" vertical-offset="132" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -744,7 +744,11 @@
       <created>1394341695419</created>
       <updated>1394341695419</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add radio show link to top navigation">
+      <created>1394341878166</created>
+      <updated>1394341878166</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -826,7 +830,8 @@
     <MESSAGE value="Add articles scaffold" />
     <MESSAGE value="Add blog path to routes" />
     <MESSAGE value="Fix responsive layout of social icons in the footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix responsive layout of social icons in the footer" />
+    <MESSAGE value="Add radio show link to top navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add radio show link to top navigation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1184,7 +1189,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.5479042" vertical-offset="132" max-vertical-offset="570">
+        <state line="24" column="111" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.6826347" vertical-offset="132" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
