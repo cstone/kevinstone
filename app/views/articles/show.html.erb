@@ -1,20 +1,9 @@
-<p id="notice"><%= notice %></p>
+<h3><%= @article.title %></h3>
+<p><i>Posted <%= time_ago_in_words(@article.created_at) %> ago</i></p>
+<p><% if @article.article_image.url %>
+    <%= image_tag @article.article_image.url, class: 'img-float-right' %>
+<% end %>
+<%= simple_format(@article.body) %></p>
+<p><%= link_to 'Back to my blog', articles_path %></p>
 
-<p>
-  <b>Title:</b>
-  <%= @article.title %>
-</p>
-
-<p>
-  <b>Body:</b>
-  <%= @article.body %>
-</p>
-
-<p>
-  <b>Article image:</b>
-  <%= @article.article_image %>
-</p>
-
-
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+<%= render 'layouts/structure/disqus-thread' %>
