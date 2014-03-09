@@ -1,50 +1,35 @@
-<p id="notice"><%= notice %></p>
+<div class="fancytitle"><%= @event.title %></div>
+<table width="80%" class="table">
+  <tr>
+    <td width="15%"><strong>When:</strong></td>
+    <td width="85%"><%= @event.time %></td>
+  </tr>
+  <% if !@event.venue.empty? %>
+      <tr>
+        <td><strong>Where:</strong></td>
+        <td><%= @event.venue %></td>
+      </tr>
+  <% end %>
+  <% if !@event.address.empty? %>
+      <tr>
+        <td></td>
+        <td><%= @event.address %> <%= @event.city %>, <%= @event.state %> <%= @event.zip %></td>
+      </tr>
+  <% end %>
+  <% if !@event.description.empty? %>
+      <tr>
+        <td><strong>Description:</strong></td>
+        <td><%= simple_format @event.description %></td>
+      </tr>
+  <% end %>
+  <% if !@event.url.empty? %>
+      <tr>
+        <td><strong>Website:</strong></td>
+        <td><%= link_to @event.url, @event.url %></td>
+      </tr>
+  <% end %>
 
-<p>
-  <b>Title:</b>
-  <%= @event.title %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= @event.description %>
-</p>
-
-<p>
-  <b>Venue:</b>
-  <%= @event.venue %>
-</p>
-
-<p>
-  <b>Address:</b>
-  <%= @event.address %>
-</p>
-
-<p>
-  <b>City:</b>
-  <%= @event.city %>
-</p>
-
-<p>
-  <b>State:</b>
-  <%= @event.state %>
-</p>
-
-<p>
-  <b>Zip:</b>
-  <%= @event.zip %>
-</p>
-
-<p>
-  <b>Url:</b>
-  <%= @event.url %>
-</p>
-
-<p>
-  <b>Time:</b>
-  <%= @event.time %>
-</p>
-
-
-<%= link_to 'Edit', edit_event_path(@event) %> |
-<%= link_to 'Back', events_path %>
+</table>
+<p class="text-right"><%= link_to 'Back to all of Kevin\'s events', events_path, class: '' %></p>
+<hr>
+<%= render 'layouts/structure/disqus-thread' %>

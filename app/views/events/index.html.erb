@@ -1,4 +1,4 @@
-<h3>Where's Kevin</h3>
+<h3>Events</h3>
 <table width="100%" class="table">
   <thead>
   <tr>
@@ -12,7 +12,7 @@
       <tr>
         <td><%= link_to event.time, event %></td>
         <td><%= link_to event.title, event %></td>
-        <td align="right"><%= link_to 'More Info', event, class: '' %></td>
+        <td align="right"><%= link_to 'More Info', event, class: 'btn btn-sm btn-primary' %></td>
       </tr>
   <% end %>
   </tbody>
