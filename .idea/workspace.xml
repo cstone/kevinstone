@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/videos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/videos/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/videos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/videos/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -36,15 +36,6 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="30" column="28" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="855">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_us.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/contact_us.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="28" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -86,28 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/videos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="107" selection-end="107" vertical-scroll-proportion="0.13473053" vertical-offset="0" max-vertical-offset="334">
+            <state line="3" column="14" selection-start="107" selection-end="107" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/videos/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="67" selection-start="867" selection-end="867" vertical-scroll-proportion="-11.25" vertical-offset="150" max-vertical-offset="705">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="255">
+            <state line="2" column="79" selection-start="247" selection-end="247" vertical-scroll-proportion="0.093457945" vertical-offset="0" max-vertical-offset="321">
               <folding />
             </state>
           </provider>
@@ -167,7 +149,6 @@
         <option value="$PROJECT_DIR$/app/views/pages/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/uploaders/photos_image_uploader.rb" />
-        <option value="$PROJECT_DIR$/app/views/videos/show.html.erb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/photos/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/show.html.erb" />
@@ -182,6 +163,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/videos/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/videos/show.html.erb" />
       </list>
     </option>
   </component>
@@ -856,7 +838,11 @@
       <created>1394396360778</created>
       <updated>1394396360778</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Update videos index page">
+      <created>1394396552220</created>
+      <updated>1394396552220</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -917,7 +903,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add social instance variables to top navigation" />
     <MESSAGE value="Add articles scaffold" />
     <MESSAGE value="Add blog path to routes" />
     <MESSAGE value="Fix responsive layout of social icons in the footer" />
@@ -942,7 +927,8 @@
     <MESSAGE value="Install contact us gem" />
     <MESSAGE value="Update contact us initializer for formtastic" />
     <MESSAGE value="Add contact_kevin route to routes file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add contact_kevin route to routes file" />
+    <MESSAGE value="Update videos index page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update videos index page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1158,13 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/videos/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="306" selection-end="336" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="90" selection-start="123" selection-end="123" vertical-scroll-proportion="0.041899443" vertical-offset="0" max-vertical-offset="358">
@@ -1300,7 +1279,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/videos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="107" selection-end="107" vertical-scroll-proportion="0.13473053" vertical-offset="0" max-vertical-offset="334">
+        <state line="3" column="14" selection-start="107" selection-end="107" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/videos/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="79" selection-start="247" selection-end="247" vertical-scroll-proportion="0.093457945" vertical-offset="0" max-vertical-offset="321">
           <folding />
         </state>
       </provider>
