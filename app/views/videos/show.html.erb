@@ -1,5 +1,6 @@
-<h4><%= @video.title %></h4>
+<h3><%= @video.title %></h3>
 <p><small><%= time_ago_in_words(@video.created_at) %> ago</small></p>
+<hr>
 <p><%= simple_format(@video.description) %></p>
 <p>&nbsp;</p>
 <p><iframe width="560" height="315" src="//www.youtube.com/embed/<%= @video.source %>?rel=0" frameborder="0" allowfullscreen></iframe></p>

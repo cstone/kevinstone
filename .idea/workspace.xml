@@ -763,7 +763,11 @@
       <created>1394387806354</created>
       <updated>1394387806354</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Change video heading from h3 to h4">
+      <created>1394387840049</created>
+      <updated>1394387840049</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -824,7 +828,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add Dynamic Content scaffold" />
     <MESSAGE value="Add Pages scaffold" />
     <MESSAGE value="Updated pages for dynamic urls" />
     <MESSAGE value="Add photos scaffold" />
@@ -849,7 +852,8 @@
     <MESSAGE value="Fix spacing on photos show page" />
     <MESSAGE value="Restrict disqus comments on video show page" />
     <MESSAGE value="Add relative time to videos show page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add relative time to videos show page" />
+    <MESSAGE value="Change video heading from h3 to h4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change video heading from h3 to h4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
