@@ -14,6 +14,6 @@ class ApplicationController < ActionController::Base
     @banner_content = DynamicContent.get_value(:banner_content)
     @contact_name = DynamicContent.get_value(:contact_name)
     @contact_content = DynamicContent.get_value(:contact_content)
-
+    @next_three_events = Event.next_three
   end
 end
