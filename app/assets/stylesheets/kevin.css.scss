@@ -137,12 +137,12 @@ $content-background: #F1F1F1;
 footer {
   padding: 15px;
   background-color: $tertiary-color;
-  p {
-    padding-top: 10px;
-  }
   a {
     /*color: #428BCA;*/
     color: $content-background;
+    :hover {
+      color: #FFFFFF;
+    }
   }
   .nav > li > a:hover {
     background-color: $content-background;
