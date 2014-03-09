@@ -1,4 +1,5 @@
-<h3>Contact Kevin</h3>
+<h3><%= @contact_name %></h3>
+<p><%= @contact_content %></p>
 <%= semantic_form_for @contact, :url => contacts_path do |f| %>
   <%= f.input :name, :label => t('.name') if ContactUs.require_name %>
   <%= f.input :email, :label => t('.email') %>
