@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/show.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -44,10 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/photos/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="57" selection-start="39" selection-end="86" vertical-scroll-proportion="0.042016808" vertical-offset="0" max-vertical-offset="357">
+            <state line="1" column="57" selection-start="39" selection-end="86" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.5042017" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -120,8 +127,8 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/contact_us/contacts/new_formtastic.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
       </list>
     </option>
   </component>
@@ -232,7 +239,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="photos" />
+              <option name="myItemId" value="articles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -876,7 +883,11 @@
       <created>1394400519944</created>
       <updated>1394400519944</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Add img-responsive class to images">
+      <created>1394400764068</created>
+      <updated>1394400764069</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -937,7 +948,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add hr to video show page" />
     <MESSAGE value="Add allow comment boolean to photos" />
     <MESSAGE value="Add :allow_comments to attr_accessible" />
     <MESSAGE value="Add contact link to top navigation" />
@@ -962,7 +972,8 @@
     <MESSAGE value="Change thumbnail size to 100 pixels tall on blog" />
     <MESSAGE value="Removed one element from right side." />
     <MESSAGE value="Add dynamic content to contact us page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dynamic content to contact us page" />
+    <MESSAGE value="Add img-responsive class to images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add img-responsive class to images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1276,13 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="97" selection-start="262" selection-end="262" vertical-scroll-proportion="0.16806723" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="70" selection-start="211" selection-end="225" vertical-scroll-proportion="0.12605043" vertical-offset="0" max-vertical-offset="357">
@@ -1320,7 +1324,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/photos/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="57" selection-start="39" selection-end="86" vertical-scroll-proportion="0.042016808" vertical-offset="0" max-vertical-offset="357">
+        <state line="1" column="57" selection-start="39" selection-end="86" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.5042017" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>

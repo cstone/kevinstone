@@ -2,7 +2,7 @@
 <% @articles.each do |article| %>
     <h4><%= link_to_unless_current article.title, article %></h4>
     <p><% if article.article_image.url  %>
-          <%= image_tag article.article_image.url(:thumb), class: 'img-float-right img-responsive' %>
+          <%= link_to(image_tag(article.article_image.url(:thumb), class: 'img-float-right img-responsive'), article) %>
           <% end %>
       <%= truncate(raw(article.body), length: 250) %>
     </p>
