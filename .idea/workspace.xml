@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/structure/_footer-copyright.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="_top-nav.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1335" selection-end="1526" vertical-scroll-proportion="0.5126051" vertical-offset="222" max-vertical-offset="585">
+            <state line="29" column="102" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.5966387" vertical-offset="222" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -639,7 +639,11 @@
       <created>1394325480111</created>
       <updated>1394325480111</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Remove footer-copyright partial.">
+      <created>1394330429280</created>
+      <updated>1394330429281</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -666,7 +670,7 @@
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -716,7 +720,8 @@
     <MESSAGE value="Add videos scaffold" />
     <MESSAGE value="Add videos to top nav" />
     <MESSAGE value="Add Disqus comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Disqus comments" />
+    <MESSAGE value="Remove footer-copyright partial." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove footer-copyright partial." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1067,7 +1072,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1335" selection-end="1526" vertical-scroll-proportion="0.5126051" vertical-offset="222" max-vertical-offset="585">
+        <state line="29" column="102" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.5966387" vertical-offset="222" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
