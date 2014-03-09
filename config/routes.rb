@@ -2,18 +2,13 @@ Kevinstone::Application.routes.draw do
 
 
   resources :articles
-
-
   resources :videos
-
-
   resources :photos
-
-
   resources :dynamic_contents
   resources :events
   resources :pages, except: :show
   root :to => 'home#index'
+  match 'blog', to: 'articles#index', as: :blog
   get ':id', to: 'pages#show', as: :page
 
 
