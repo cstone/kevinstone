@@ -1,9 +1,7 @@
 <h3><%= @event.title %></h3>
 <p><%= @event.time %> <% if @event.venue %>at <%= @event.venue %><% end %></p>
 <p><%= simple_format @event.description %></p>
-<% if @event.url %>
-    <p><%= link_to @event.url, @event.url %></p>
-<% end %>
+
 <table class="table table-bordered">
   <tr>
     <td><strong>What:</strong></td>
@@ -25,10 +23,13 @@
         <td><%= @event.address %> <%= @event.city %>, <%= @event.state %> <%= @event.zip %></td>
       </tr>
   <% end %>
-  <% if !@event.description.empty? %>
-  <% end %>
-  <% if !@event.url.empty? %>
-  <% end %>
+      <% if @event.url %>
+          <tr>
+            <td><strong>Website:</strong></td>
+            <td><%= link_to @event.url, @event.url, target: '_blank' %></td>
+          </tr>
+      <% end %>
+
 
 </table>
 <p class="text-right"><%= link_to 'Back to all of Kevin\'s events', events_path, class: '' %></p>

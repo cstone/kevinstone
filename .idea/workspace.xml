@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/index.html.erb" afterPath="$PROJECT_DIR$/app/views/events/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/kevin.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/kevin.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/show.html.erb" afterPath="$PROJECT_DIR$/app/views/events/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -72,7 +70,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="8" selection-start="891" selection-end="891" vertical-scroll-proportion="0.9101796" vertical-offset="176" max-vertical-offset="690">
+            <state line="28" column="67" selection-start="867" selection-end="867" vertical-scroll-proportion="0.8083832" vertical-offset="150" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -766,7 +764,11 @@
       <created>1394390359100</created>
       <updated>1394390359100</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Update events show page">
+      <created>1394395485528</created>
+      <updated>1394395485528</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -793,7 +795,7 @@
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -827,7 +829,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add multipart to forms" />
     <MESSAGE value="Add videos scaffold" />
     <MESSAGE value="Add videos to top nav" />
     <MESSAGE value="Add Disqus comments" />
@@ -852,7 +853,8 @@
     <MESSAGE value="Update events index page" />
     <MESSAGE value="Add time formats initializer" />
     <MESSAGE value="Add will_paginate to events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add will_paginate to events" />
+    <MESSAGE value="Update events show page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update events show page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1210,7 +1212,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="891" selection-end="891" vertical-scroll-proportion="0.9101796" vertical-offset="176" max-vertical-offset="690">
+        <state line="28" column="67" selection-start="867" selection-end="867" vertical-scroll-proportion="0.8083832" vertical-offset="150" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
