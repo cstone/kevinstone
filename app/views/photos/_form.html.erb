@@ -14,6 +14,10 @@
         <td><%= f.file_field :photo_image, label:false %></td>
       </tr>
       <tr>
+        <td>Allow Comments:</td>
+        <td><%= f.input :allow_comments, label:false %></td>
+      </tr>
+      <tr>
         <td colspan="2"><%= f.action :submit, :as => :input, class: 'btn btn-lg btn-primary' %></td>
       </tr>
     </table>
