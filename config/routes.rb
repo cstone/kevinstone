@@ -1,6 +1,9 @@
 Kevinstone::Application.routes.draw do
 
 
+  resources :articles
+
+
   resources :videos
 
 
