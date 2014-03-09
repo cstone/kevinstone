@@ -1,6 +1,12 @@
 <h3>Kevin's Blog</h3>
 <% @articles.each do |article| %>
     <h4><%= link_to_unless_current article.title, article %></h4>
-    <p><%= truncate(raw(article.body), length: 250) %></p>
+    <p><% if article.article_image.url  %>
+          <%= image_tag article.article_image.url(:thumb), class: 'img-float-right' %>
+          <% end %>
+      <%= truncate(raw(article.body), length: 250) %>
+    </p>
+    <p><small><%= time_ago_in_words(article.created_at) %> ago</small></p>
     <hr>
 <% end %>
+<%= will_paginate @articles %>
