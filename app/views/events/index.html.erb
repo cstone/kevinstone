@@ -1,19 +1,11 @@
-<h3>Events</h3>
-<table width="100%" class="table">
-  <thead>
-  <tr>
-    <th width="25%">When</th>
-    <th width="60%">Event</th>
-    <th width="15%"></th>
-  </tr>
-  </thead>
-  <tbody>
-  <% @events.each do |event| %>
-      <tr>
-        <td><%= link_to event.time, event %></td>
-        <td><%= link_to event.title, event %></td>
-        <td align="right"><%= link_to 'More Info', event, class: 'btn btn-sm btn-primary' %></td>
-      </tr>
-  <% end %>
-  </tbody>
-</table>
+<h4>Upcoming Events</h4>
+<br/>
+<% @events.each do |event| %>
+<h4><%= link_to event.title, event %></h4>
+<p><%= link_to event.time, event %></p>
+<p><%= event.venue %></p>
+<p><%= event.description.truncate(150) %></p>
+<p><%= link_to 'More Info', event, class: 'btn btn-sm btn-primary pull-right' %></p>
+<br/>
+<hr>
+<% end %>
