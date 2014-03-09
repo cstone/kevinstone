@@ -10,6 +10,8 @@ class ApplicationController < ActionController::Base
     @site_title = DynamicContent.get_value(:site_title)
     @home_title = DynamicContent.get_value(:home_title)
     @home_content = DynamicContent.get_value(:home_content)
+    @banner_name = DynamicContent.get_value(:banner_name)
+    @banner_content = DynamicContent.get_value(:banner_content)
 
   end
 end
