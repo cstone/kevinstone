@@ -61,7 +61,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/videos/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.39244187" vertical-offset="0" max-vertical-offset="344">
+            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="344">
               <folding />
             </state>
           </provider>
@@ -759,7 +759,11 @@
       <created>1394387764241</created>
       <updated>1394387764241</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Add relative time to videos show page">
+      <created>1394387806354</created>
+      <updated>1394387806354</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -820,7 +824,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Update events index page" />
     <MESSAGE value="Add Dynamic Content scaffold" />
     <MESSAGE value="Add Pages scaffold" />
     <MESSAGE value="Updated pages for dynamic urls" />
@@ -845,7 +848,8 @@
     <MESSAGE value="Add img-responsive class to photos show page" />
     <MESSAGE value="Fix spacing on photos show page" />
     <MESSAGE value="Restrict disqus comments on video show page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restrict disqus comments on video show page" />
+    <MESSAGE value="Add relative time to videos show page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add relative time to videos show page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1203,7 +1207,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/videos/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.39244187" vertical-offset="0" max-vertical-offset="344">
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="344">
           <folding />
         </state>
       </provider>
