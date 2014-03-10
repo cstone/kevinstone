@@ -1,6 +1,7 @@
 ActiveAdmin.register DynamicContent do
 
   index do
+    selectable_column
     column :title
     column :key
     column :value
