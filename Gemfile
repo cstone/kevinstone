@@ -29,6 +29,8 @@ gem 'figaro'
 gem 'formtastic-bootstrap'
 gem 'will_paginate', '~> 3.0'
 gem 'contact_us', '~> 0.5.0'
+gem 'activeadmin'
+gem 'jquery-ui-rails'
 
 group :development do
   gem 'better_errors'
