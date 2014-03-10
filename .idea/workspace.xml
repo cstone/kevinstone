@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/page_image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/page_image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/pages.rb" afterPath="$PROJECT_DIR$/app/admin/pages.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/photos.rb" afterPath="$PROJECT_DIR$/app/admin/photos.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -61,10 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pages.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="101" selection-end="101" vertical-scroll-proportion="0.15748031" vertical-offset="0" max-vertical-offset="381">
+            <state line="5" column="7" selection-start="64" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photos.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="27" selection-start="126" selection-end="126" vertical-scroll-proportion="0.19685039" vertical-offset="0" max-vertical-offset="381">
               <folding />
             </state>
           </provider>
@@ -92,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/pages/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_disqus-thread.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_disqus-comment-count.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_footer.html.erb" />
@@ -143,6 +150,7 @@
         <option value="$PROJECT_DIR$/app/admin/dynamic_contents.rb" />
         <option value="$PROJECT_DIR$/app/admin/pages.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/page_image_uploader.rb" />
+        <option value="$PROJECT_DIR$/app/admin/photos.rb" />
       </list>
     </option>
   </component>
@@ -863,7 +871,11 @@
       <created>1394466019737</created>
       <updated>1394466019737</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Update Pages Index page for ActiveAdmin&#10;">
+      <created>1394468455654</created>
+      <updated>1394468455655</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -890,7 +902,7 @@
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -924,7 +936,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add thumbnail to blog images" />
     <MESSAGE value="Change thumbnail size to 100 pixels tall on blog" />
     <MESSAGE value="Removed one element from right side." />
     <MESSAGE value="Add dynamic content to contact us page" />
@@ -949,17 +960,13 @@
     <MESSAGE value="Update Articles Index page to use thumbnails for ActiveAdmin&#10;" />
     <MESSAGE value="Update DynamicContents Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Update filter on DynamicContents Index page for ActiveAdmin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update filter on DynamicContents Index page for ActiveAdmin&#10;" />
+    <MESSAGE value="Update Pages Index page for ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Pages Index page for ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/contact_us/contacts/new_formtastic.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="53" selection-end="53" vertical-scroll-proportion="0.046728972" vertical-offset="0" max-vertical-offset="321" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_jumbotron.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="313" selection-end="313" vertical-scroll-proportion="0.21008404" vertical-offset="0" max-vertical-offset="357">
@@ -1207,13 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="358">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="49" selection-start="84" selection-end="105" vertical-scroll-proportion="0.03937008" vertical-offset="0" max-vertical-offset="381">
@@ -1279,7 +1279,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="101" selection-end="101" vertical-scroll-proportion="0.15748031" vertical-offset="0" max-vertical-offset="381">
+        <state line="5" column="7" selection-start="64" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/photos_image_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0629921" vertical-offset="405" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="126" selection-end="126" vertical-scroll-proportion="0.19685039" vertical-offset="0" max-vertical-offset="381">
           <folding />
         </state>
       </provider>
