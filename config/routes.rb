@@ -1,5 +1,6 @@
 Kevinstone::Application.routes.draw do
 
+  root :to => 'home#index'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
@@ -10,7 +11,7 @@ Kevinstone::Application.routes.draw do
   resources :dynamic_contents
   resources :events
   resources :pages, except: [:show]
-  root :to => 'home#index'
+
   match '/contact', to: 'contact_us/contacts#new', as: :contact_kevin
   match 'blog', to: 'articles#index', as: :blog
   match ':id', to: 'pages#show', as: :page

@@ -2,7 +2,7 @@ class EventsController < ApplicationController
   # GET /events
   # GET /events.json
   def index
-    @events = Event.upcoming.paginate(:page => params[:page], :per_page => 10)
+    @events = Event.upcoming.page(params[:page]).per(10)
 
     respond_to do |format|
       format.html # index.html.erb

@@ -9,4 +9,4 @@
     <p><small><%= time_ago_in_words(article.created_at) %> ago</small></p>
     <hr>
 <% end %>
-<%= will_paginate @articles %>
+<%= paginate @articles %>

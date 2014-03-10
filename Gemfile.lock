@@ -189,7 +189,6 @@ GEM
       json (>= 1.8.0)
     warden (1.2.3)
       rack (>= 1.0)
-    will_paginate (3.0.5)
 
 PLATFORMS
   ruby
@@ -207,9 +206,9 @@ DEPENDENCIES
   formtastic-bootstrap
   jquery-rails
   jquery-ui-rails
+  kaminari
   rails (= 3.2.13)
   rmagick (~> 2.13.2)
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
-  will_paginate (~> 3.0)

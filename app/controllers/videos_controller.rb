@@ -2,7 +2,7 @@ class VideosController < ApplicationController
   # GET /videos
   # GET /videos.json
   def index
-    @videos = Video.paginate(:page => params[:page], :per_page => 10)
+    @videos = Video.page(params[:page]).per(10)
 
     respond_to do |format|
       format.html # index.html.erb
