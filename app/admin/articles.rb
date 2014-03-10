@@ -26,6 +26,8 @@ ActiveAdmin.register Article do
       row :article_image do
         image_tag(article.article_image.url(:thumb))
       end
+      row :created_at
+      row :updated_at
     end
     active_admin_comments
   end

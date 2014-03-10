@@ -45,7 +45,7 @@
       <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="383" selection-end="383" vertical-scroll-proportion="0.78740156" vertical-offset="15" max-vertical-offset="585">
+            <state line="29" column="21" selection-start="589" selection-end="589" vertical-scroll-proportion="0.86614174" vertical-offset="105" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -881,7 +881,11 @@
       <created>1394468883766</created>
       <updated>1394468883766</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Update Articles Show page for ActiveAdmin&#10;">
+      <created>1394469687889</created>
+      <updated>1394469687889</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -908,7 +912,7 @@
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -942,7 +946,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add next 3 scope to event model" />
     <MESSAGE value="Add Facebook &amp; Twitter to right side" />
     <MESSAGE value="Change Twitter color scheme to white" />
     <MESSAGE value="Add style for panel link color of white" />
@@ -967,7 +970,8 @@
     <MESSAGE value="Add selectable_column to  Event Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Add selectable_column to  DynamicContents Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Update Videos Index page for ActiveAdmin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Videos Index page for ActiveAdmin&#10;" />
+    <MESSAGE value="Update Articles Show page for ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Articles Show page for ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1301,7 +1305,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="383" selection-end="383" vertical-scroll-proportion="0.78740156" vertical-offset="15" max-vertical-offset="585">
+        <state line="29" column="21" selection-start="589" selection-end="589" vertical-scroll-proportion="0.86614174" vertical-offset="105" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
