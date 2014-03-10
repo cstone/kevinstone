@@ -14,4 +14,18 @@ ActiveAdmin.register DynamicContent do
   filter :created_at
   filter :updated_at
 
+  show do |dynamiccontent|
+    attributes_table do
+      row :id
+      row :title
+      row :key
+      row :value do
+        simple_format dynamiccontent.value
+      end
+      row :created_at
+      row :updated_at
+    end
+    active_admin_comments
+  end
+
 end

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/articles.rb" afterPath="$PROJECT_DIR$/app/admin/articles.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/dynamic_contents.rb" afterPath="$PROJECT_DIR$/app/admin/dynamic_contents.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -42,19 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="articles.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="589" selection-end="589" vertical-scroll-proportion="0.86614174" vertical-offset="105" max-vertical-offset="615">
+            <state line="32" column="5" selection-start="291" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+      <file leaf-file-name="dynamic_contents.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/dynamic_contents.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="49" selection-start="84" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="23" column="9" selection-start="410" selection-end="410" vertical-scroll-proportion="0.72440946" vertical-offset="69" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -130,9 +130,9 @@
         <option value="$PROJECT_DIR$/app/admin/photos.rb" />
         <option value="$PROJECT_DIR$/app/admin/pages.rb" />
         <option value="$PROJECT_DIR$/app/admin/events.rb" />
-        <option value="$PROJECT_DIR$/app/admin/dynamic_contents.rb" />
         <option value="$PROJECT_DIR$/app/admin/videos.rb" />
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
+        <option value="$PROJECT_DIR$/app/admin/dynamic_contents.rb" />
       </list>
     </option>
   </component>
@@ -240,7 +240,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -885,7 +885,11 @@
       <created>1394469687889</created>
       <updated>1394469687889</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Update Articles Show page for ActiveAdmin to add created_at and updated_at&#10;">
+      <created>1394469809254</created>
+      <updated>1394469809254</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -946,7 +950,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add Facebook &amp; Twitter to right side" />
     <MESSAGE value="Change Twitter color scheme to white" />
     <MESSAGE value="Add style for panel link color of white" />
     <MESSAGE value="Add allow comments boolean to articles" />
@@ -971,7 +974,8 @@
     <MESSAGE value="Add selectable_column to  DynamicContents Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Update Videos Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Update Articles Show page for ActiveAdmin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Articles Show page for ActiveAdmin&#10;" />
+    <MESSAGE value="Update Articles Show page for ActiveAdmin to add created_at and updated_at&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Articles Show page for ActiveAdmin to add created_at and updated_at&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1212,13 +1216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/dynamic_content.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="381">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../kevinandashley/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="174" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
@@ -1268,13 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/dynamic_contents.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="4" selection-start="45" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -1298,14 +1288,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="84" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+        <state line="1" column="49" selection-start="84" selection-end="105" vertical-scroll-proportion="0.03937008" vertical-offset="0" max-vertical-offset="381">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/dynamic_content.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="381">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="589" selection-end="589" vertical-scroll-proportion="0.86614174" vertical-offset="105" max-vertical-offset="615">
+        <state line="32" column="5" selection-start="291" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/dynamic_contents.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="9" selection-start="410" selection-end="410" vertical-scroll-proportion="0.72440946" vertical-offset="69" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
