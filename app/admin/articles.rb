@@ -9,6 +9,8 @@ ActiveAdmin.register Article do
     default_actions
   end
 
+
+
   filter :title
   filter :body
   filter :allow_comments
