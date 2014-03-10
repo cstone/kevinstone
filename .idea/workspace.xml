@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/events.rb" afterPath="$PROJECT_DIR$/app/admin/events.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/videos.rb" afterPath="$PROJECT_DIR$/app/admin/videos.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -51,10 +51,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="events.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="37" selection-start="271" selection-end="271" vertical-scroll-proportion="0.5511811" vertical-offset="15" max-vertical-offset="540">
+            <state line="10" column="0" selection-start="135" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videos.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/videos.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="25" selection-start="349" selection-end="349" vertical-scroll-proportion="0.70866144" vertical-offset="30" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -129,10 +138,10 @@
         <option value="$PROJECT_DIR$/app/uploaders/page_image_uploader.rb" />
         <option value="$PROJECT_DIR$/app/admin/photos.rb" />
         <option value="$PROJECT_DIR$/app/admin/pages.rb" />
-        <option value="$PROJECT_DIR$/app/admin/videos.rb" />
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
         <option value="$PROJECT_DIR$/app/admin/dynamic_contents.rb" />
         <option value="$PROJECT_DIR$/app/admin/events.rb" />
+        <option value="$PROJECT_DIR$/app/admin/videos.rb" />
       </list>
     </option>
   </component>
@@ -893,7 +902,11 @@
       <created>1394469956543</created>
       <updated>1394469956544</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Update Events Show page for ActiveAdmin&#10;">
+      <created>1394470120351</created>
+      <updated>1394470120352</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -954,7 +967,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add style for panel link color of white" />
     <MESSAGE value="Add allow comments boolean to articles" />
     <MESSAGE value="Add :allow_comments to attr_accessible" />
     <MESSAGE value="Add jquery ui for ActiveAdmin" />
@@ -979,7 +991,8 @@
     <MESSAGE value="Update Articles Show page for ActiveAdmin&#10;" />
     <MESSAGE value="Update Articles Show page for ActiveAdmin to add created_at and updated_at&#10;" />
     <MESSAGE value="Update DynamicContent Show page for ActiveAdmin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update DynamicContent Show page for ActiveAdmin&#10;" />
+    <MESSAGE value="Update Events Show page for ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Events Show page for ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1276,13 +1289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/videos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="49" selection-start="84" selection-end="105" vertical-scroll-proportion="0.03937008" vertical-offset="0" max-vertical-offset="381">
@@ -1313,7 +1319,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="37" selection-start="271" selection-end="271" vertical-scroll-proportion="0.5511811" vertical-offset="15" max-vertical-offset="540">
+        <state line="10" column="0" selection-start="135" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/videos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="349" selection-end="349" vertical-scroll-proportion="0.70866144" vertical-offset="30" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
