@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/articles.rb" afterPath="$PROJECT_DIR$/app/admin/articles.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/events.rb" afterPath="$PROJECT_DIR$/app/admin/events.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -64,7 +63,16 @@
       <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="257" selection-end="257" vertical-scroll-proportion="0.511811" vertical-offset="0" max-vertical-offset="381">
+            <state line="4" column="46" selection-start="127" selection-end="127" vertical-scroll-proportion="0.15748031" vertical-offset="0" max-vertical-offset="381">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_image_uploader.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/uploaders/article_image_uploader.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="33" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -241,25 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="uploaders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -852,7 +842,11 @@
       <created>1394425315843</created>
       <updated>1394425315843</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Update Articles Index page in ActiveAdmin">
+      <created>1394464489685</created>
+      <updated>1394464489736</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -879,7 +873,7 @@
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -913,7 +907,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add upcoming scope to events" />
     <MESSAGE value="Add article image uploader" />
     <MESSAGE value="Update articles show page." />
     <MESSAGE value="Update blog index page." />
@@ -938,7 +931,8 @@
     <MESSAGE value="Add DynamicContent model to ActiveAdmin&#10;" />
     <MESSAGE value="Add Event model to ActiveAdmin&#10;" />
     <MESSAGE value="Add Photo model to ActiveAdmin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Photo model to ActiveAdmin&#10;" />
+    <MESSAGE value="Update Articles Index page in ActiveAdmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Articles Index page in ActiveAdmin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -954,11 +948,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/contact_us/contacts/new_formtastic.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="23" selection-start="53" selection-end="53" vertical-scroll-proportion="0.046728972" vertical-offset="0" max-vertical-offset="321" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/article_image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="33" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.78215224" vertical-offset="407" max-vertical-offset="1110" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_jumbotron.html.erb">
@@ -1264,9 +1253,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/article_image_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="33" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="257" selection-end="257" vertical-scroll-proportion="0.511811" vertical-offset="0" max-vertical-offset="381">
+        <state line="4" column="46" selection-start="127" selection-end="127" vertical-scroll-proportion="0.15748031" vertical-offset="0" max-vertical-offset="381">
           <folding />
         </state>
       </provider>
