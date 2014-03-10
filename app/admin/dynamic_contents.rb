@@ -7,4 +7,10 @@ ActiveAdmin.register DynamicContent do
     default_actions
   end
 
+  filter :title
+  filter :key
+  filter :value
+  filter :created_at
+  filter :updated_at
+
 end
