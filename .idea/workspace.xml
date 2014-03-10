@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/articles.rb" afterPath="$PROJECT_DIR$/app/admin/articles.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/events.rb" afterPath="$PROJECT_DIR$/app/admin/events.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -33,28 +33,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="event.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/event.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="71" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="events.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="31" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="3" column="6" selection-start="48" selection-end="48" vertical-scroll-proportion="0.11811024" vertical-offset="0" max-vertical-offset="381">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="articles.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="65" selection-end="65" vertical-scroll-proportion="0.11811024" vertical-offset="0" max-vertical-offset="381">
+            <state line="3" column="21" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -145,12 +136,12 @@
         <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/videos/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/admin/events.rb" />
         <option value="$PROJECT_DIR$/app/admin/dynamic_contents.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/page_image_uploader.rb" />
         <option value="$PROJECT_DIR$/app/admin/photos.rb" />
         <option value="$PROJECT_DIR$/app/admin/pages.rb" />
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
+        <option value="$PROJECT_DIR$/app/admin/events.rb" />
       </list>
     </option>
   </component>
@@ -883,7 +874,11 @@
       <created>1394468666037</created>
       <updated>1394468666037</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Add selectable_column to  Articles Index page for ActiveAdmin&#10;">
+      <created>1394468689082</created>
+      <updated>1394468689083</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -944,7 +939,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add dynamic content to contact us page" />
     <MESSAGE value="Add img-responsive class to images" />
     <MESSAGE value="Add links to thumbnail images on blog index page" />
     <MESSAGE value="Add navbar dropdown color" />
@@ -969,7 +963,8 @@
     <MESSAGE value="Update Pages Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Update Photos Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Add selectable_column to  Pages Index page for ActiveAdmin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add selectable_column to  Pages Index page for ActiveAdmin&#10;" />
+    <MESSAGE value="Add selectable_column to  Articles Index page for ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add selectable_column to  Articles Index page for ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1243,20 +1238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="31" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/event.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="71" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/dynamic_contents.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="17" selection-start="214" selection-end="214" vertical-scroll-proportion="0.511811" vertical-offset="0" max-vertical-offset="381">
@@ -1301,7 +1282,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="65" selection-end="65" vertical-scroll-proportion="0.11811024" vertical-offset="0" max-vertical-offset="381">
+        <state line="3" column="21" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/event.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="71" selection-start="259" selection-end="259" vertical-scroll-proportion="0.19685039" vertical-offset="0" max-vertical-offset="381">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="48" selection-end="48" vertical-scroll-proportion="0.11811024" vertical-offset="0" max-vertical-offset="381">
           <folding />
         </state>
       </provider>
