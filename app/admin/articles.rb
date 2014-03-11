@@ -1,5 +1,22 @@
 ActiveAdmin.register Article do
 
+
+  form do |f|
+    f.inputs do
+      f.input :title
+      f.input :body, :as => :ckeditor
+    end
+    f.inputs "Image" do
+      f.file_field :article_image
+    end
+    f.inputs "Remove Current Image" do
+      f.input :remove_article_image, as: :boolean, label: 'Check here to remove the current image.'
+    end
+    f.actions
+  end
+
+
+
   index do
     selectable_column
     column :article_image do |image|

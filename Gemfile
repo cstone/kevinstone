@@ -31,6 +31,8 @@ gem 'contact_us', '~> 0.5.0'
 gem 'activeadmin'
 gem 'jquery-ui-rails'
 gem 'kaminari'
+gem 'ckeditor'
+gem 'mini_magick'
 
 group :development do
   gem 'better_errors'
