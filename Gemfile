@@ -38,7 +38,7 @@ gem 'contact_us', '~> 0.5.0'
 gem 'activeadmin'
 gem 'jquery-ui-rails'
 gem 'kaminari'
-gem 'ckeditor'
+gem 'ckeditor_rails'
 gem 'mini_magick'
 
 group :development do
