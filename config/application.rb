@@ -67,5 +67,7 @@ module Kevinstone
 
     # Autoload ckeditor models folder (application.rb):
     config.autoload_paths += %W(#{config.root}/app/models/ckeditor)
+
+    config.assets.precompile += Ckeditor.assets
   end
 end
