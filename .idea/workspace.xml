@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/ckeditor/asset.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/ckeditor/attachment_file.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/ckeditor/picture.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -220,7 +222,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -920,7 +940,11 @@
       <created>1394591250440</created>
       <updated>1394591250440</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Add config.assets.initialize_on_precompile = false to application.rb&#10;">
+      <created>1394591608282</created>
+      <updated>1394591608282</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -981,7 +1005,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Update Articles Index page in ActiveAdmin" />
     <MESSAGE value="Update Articles Index page to use thumbnails for ActiveAdmin&#10;" />
     <MESSAGE value="Update DynamicContents Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Update filter on DynamicContents Index page for ActiveAdmin&#10;" />
@@ -1006,7 +1029,8 @@
     <MESSAGE value="Update gemfile to set production and development environments for sqlite3 and pg gems" />
     <MESSAGE value="Modified application.js and production.rb for activeadmin." />
     <MESSAGE value="Add config.assets.initialize_on_precompile = false to application.rb" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add config.assets.initialize_on_precompile = false to application.rb" />
+    <MESSAGE value="Add config.assets.initialize_on_precompile = false to application.rb&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add config.assets.initialize_on_precompile = false to application.rb&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
