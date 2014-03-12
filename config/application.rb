@@ -65,9 +65,5 @@ module Kevinstone
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
-    # Autoload ckeditor models folder (application.rb):
-    config.autoload_paths += %W(#{config.root}/app/models/ckeditor)
-
-    config.assets.precompile += Ckeditor.assets
   end
 end

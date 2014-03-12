@@ -4,7 +4,7 @@ ActiveAdmin.register Article do
   form do |f|
     f.inputs do
       f.input :title
-      f.input :body, :as => :ckeditor
+      f.input :body, as: :html_editor
     end
     f.inputs "Image" do
       f.file_field :article_image
