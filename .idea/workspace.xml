@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/pages.rb" afterPath="$PROJECT_DIR$/app/admin/pages.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -52,10 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="50" selection-start="680" selection-end="680" vertical-scroll-proportion="0.5497382" vertical-offset="120" max-vertical-offset="1185">
+            <state line="22" column="50" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="22" selection-start="150" selection-end="150" vertical-scroll-proportion="0.2748691" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -129,7 +138,6 @@
         <option value="$PROJECT_DIR$/app/admin/events.rb" />
         <option value="$PROJECT_DIR$/app/admin/videos.rb" />
         <option value="$PROJECT_DIR$/app/admin/photos.rb" />
-        <option value="$PROJECT_DIR$/app/admin/pages.rb" />
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/photos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
@@ -152,6 +160,7 @@
         <option value="$PROJECT_DIR$/config/initializers/active_admin_editor.rb" />
         <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/admin/pages.rb" />
       </list>
     </option>
   </component>
@@ -221,25 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,6 +245,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -991,7 +986,15 @@
       <created>1394592646096</created>
       <updated>1394592646096</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Remove CKeditor database&#10;">
+      <created>1394592822118</created>
+      <updated>1394592822118</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Remove CKeditor uploaders&#10;">
+      <created>1394593303573</created>
+      <updated>1394593303573</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1052,8 +1055,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Update DynamicContents Index page for ActiveAdmin&#10;" />
-    <MESSAGE value="Update filter on DynamicContents Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Update Pages Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Update Photos Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Add selectable_column to  Pages Index page for ActiveAdmin&#10;" />
@@ -1077,7 +1078,9 @@
     <MESSAGE value="Add config.assets.initialize_on_precompile = false to application.rb" />
     <MESSAGE value="Add config.assets.initialize_on_precompile = false to application.rb&#10;" />
     <MESSAGE value="Remove CKeditor model folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove CKeditor model folder" />
+    <MESSAGE value="Remove CKeditor database&#10;" />
+    <MESSAGE value="Remove CKeditor uploaders&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove CKeditor uploaders&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1186,11 +1189,6 @@
     <entry file="file://$PROJECT_DIR$/../kevinandashley/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="29" selection-end="93" vertical-scroll-proportion="0.03937008" vertical-offset="0" max-vertical-offset="381" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="607" selection-end="607" vertical-scroll-proportion="1.2204725" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
@@ -1357,7 +1355,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="50" selection-start="680" selection-end="680" vertical-scroll-proportion="0.5497382" vertical-offset="120" max-vertical-offset="1185">
+        <state line="22" column="50" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="150" selection-end="150" vertical-scroll-proportion="0.2748691" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
