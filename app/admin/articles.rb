@@ -5,6 +5,7 @@ ActiveAdmin.register Article do
     f.inputs do
       f.input :title
       f.input :body, as: :html_editor
+      f.input :allow_comments
     end
     f.inputs "Image" do
       f.file_field :article_image
