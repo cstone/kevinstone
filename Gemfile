@@ -39,6 +39,7 @@ gem 'activeadmin'
 gem 'jquery-ui-rails'
 gem 'kaminari'
 gem 'active_admin_editor'
+gem 'unf'
 
 group :development do
   gem 'better_errors'

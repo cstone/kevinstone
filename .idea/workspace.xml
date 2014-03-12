@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/active_admin_editor.rb" afterPath="$PROJECT_DIR$/config/initializers/active_admin_editor.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="25" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1005">
+            <state line="41" column="9" selection-start="848" selection-end="848" vertical-scroll-proportion="0.5104712" vertical-offset="420" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="active_admin_editor.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="active_admin_editor.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/active_admin_editor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="43" selection-start="85" selection-end="85" vertical-scroll-proportion="0.039267015" vertical-offset="0" max-vertical-offset="382">
+            <state line="1" column="43" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -150,7 +150,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
@@ -161,6 +160,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/admin/pages.rb" />
         <option value="$PROJECT_DIR$/config/initializers/active_admin_editor.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -1020,7 +1020,11 @@
       <created>1394600471761</created>
       <updated>1394600471762</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Update active_admin_editor to use environment variables.">
+      <created>1394600932641</created>
+      <updated>1394600932641</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1081,7 +1085,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add selectable_column to  Articles Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Add selectable_column to  Event Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Add selectable_column to  DynamicContents Index page for ActiveAdmin&#10;" />
     <MESSAGE value="Update Videos Index page for ActiveAdmin&#10;" />
@@ -1106,7 +1109,8 @@
     <MESSAGE value="Remove page_image block in admin/page.rb" />
     <MESSAGE value="Remove debug params from application template" />
     <MESSAGE value="Add page image to activeadmin index page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add page image to activeadmin index page" />
+    <MESSAGE value="Update active_admin_editor to use environment variables." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update active_admin_editor to use environment variables." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1287,13 +1291,6 @@
         <state line="14" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.5865922" vertical-offset="0" max-vertical-offset="358" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="25" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="40" selection-start="2559" selection-end="2559" vertical-scroll-proportion="0.7916667" vertical-offset="735" max-vertical-offset="1140">
@@ -1394,7 +1391,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/active_admin_editor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="43" selection-start="85" selection-end="85" vertical-scroll-proportion="0.039267015" vertical-offset="0" max-vertical-offset="382">
+        <state line="1" column="43" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="9" selection-start="848" selection-end="848" vertical-scroll-proportion="0.5104712" vertical-offset="420" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
