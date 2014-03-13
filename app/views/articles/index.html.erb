@@ -4,7 +4,7 @@
     <p><% if article.article_image.url  %>
           <%= link_to(image_tag(article.article_image.url(:thumb), class: 'img-float-right img-responsive'), article) %>
           <% end %>
-      <%= truncate(raw(article.body), length: 250) %>
+      <%= simple_format article.body.truncate(225) %>
     </p>
     <p><small><%= time_ago_in_words(article.created_at) %> ago</small></p>
     <hr>
