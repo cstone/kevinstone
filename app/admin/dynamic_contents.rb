@@ -8,6 +8,15 @@ ActiveAdmin.register DynamicContent do
     default_actions
   end
 
+  form do |f|
+    f.inputs do
+      f.input :title
+      f.input :key
+      f.input :value, as: :html_editor
+    end
+    f.actions
+  end
+
   filter :title
   filter :key
   filter :value

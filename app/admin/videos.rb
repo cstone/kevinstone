@@ -8,7 +8,15 @@ ActiveAdmin.register Video do
     default_actions
   end
 
-
+  form do |f|
+    f.inputs do
+      f.input :title
+      f.input :description, as: :html_editor
+      f.input :source
+      f.input :allow_comments
+    end
+    f.actions
+  end
 
   show do |video|
     attributes_table do

@@ -8,6 +8,22 @@ ActiveAdmin.register Event do
   end
 
 
+  form do |f|
+    f.inputs do
+      f.input :title
+      f.input :description, as: :html_editor
+      f.input :venue
+      f.input :address
+      f.input :city
+      f.input :state
+      f.input :zip
+      f.input :url
+      f.input :time
+    end
+    f.actions
+  end
+
+
   show do |event|
     attributes_table do
       row :id
