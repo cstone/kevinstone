@@ -1,3 +1,7 @@
+<ol class="breadcrumb">
+  <li><%= link_to 'Home', root_path %></li>
+  <li class="active">Contact</li>
+</ol>
 <h3><%= @contact_name %></h3>
 <p><%= @contact_content %></p>
 <%= semantic_form_for @contact, :url => contacts_path do |f| %>
