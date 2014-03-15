@@ -18,10 +18,10 @@ ActiveAdmin.register Article do
 
 
 
-  index do
+  index do |image|
     selectable_column
-    column :article_image do |image|
-      image_tag(image.article_image.url(:thumb)) if image.article_image
+    column :article_image do
+      image_tag(image.article_image.url(:thumb))
     end
     column :title
     column :allow_comments
