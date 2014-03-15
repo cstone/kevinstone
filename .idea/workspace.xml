@@ -46,7 +46,7 @@
       <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="150" selection-end="150" vertical-scroll-proportion="0.2748691" vertical-offset="0" max-vertical-offset="780">
+            <state line="7" column="22" selection-start="150" selection-end="213" vertical-scroll-proportion="0.2748691" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -1078,7 +1078,11 @@
       <created>1394855995804</created>
       <updated>1394855995804</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Remove image from page index page activeadmin">
+      <created>1394857051736</created>
+      <updated>1394857051736</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1139,7 +1143,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Modified application.js and production.rb for activeadmin." />
     <MESSAGE value="Add config.assets.initialize_on_precompile = false to application.rb" />
     <MESSAGE value="Add config.assets.initialize_on_precompile = false to application.rb&#10;" />
     <MESSAGE value="Remove CKeditor model folder" />
@@ -1164,7 +1167,8 @@
     <MESSAGE value="Remove images from active admin for articles and pages" />
     <MESSAGE value="Remove images from active admin for articles and pages&#10;" />
     <MESSAGE value="Add images from active admin for articles and pages&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add images from active admin for articles and pages&#10;" />
+    <MESSAGE value="Remove image from page index page activeadmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove image from page index page activeadmin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1486,7 +1490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="150" selection-end="150" vertical-scroll-proportion="0.2748691" vertical-offset="0" max-vertical-offset="780">
+        <state line="7" column="22" selection-start="150" selection-end="213" vertical-scroll-proportion="0.2748691" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
