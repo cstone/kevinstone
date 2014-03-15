@@ -38,7 +38,7 @@
       <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="31" selection-start="459" selection-end="466" vertical-scroll-proportion="0.62827224" vertical-offset="90" max-vertical-offset="885">
+            <state line="23" column="23" selection-start="492" selection-end="492" vertical-scroll-proportion="0.66753924" vertical-offset="90" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -47,7 +47,7 @@
       <file leaf-file-name="pages.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="45" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+            <state line="8" column="20" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -124,8 +124,8 @@
         <option value="$PROJECT_DIR$/app/views/videos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/admin/articles.rb" />
         <option value="$PROJECT_DIR$/app/admin/pages.rb" />
+        <option value="$PROJECT_DIR$/app/admin/articles.rb" />
       </list>
     </option>
   </component>
@@ -1067,7 +1067,15 @@
       <created>1394854280665</created>
       <updated>1394854280665</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Add images from active admin for articles and pages&#10;">
+      <created>1394855097694</created>
+      <updated>1394855097694</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Remove images from active admin for articles and pages&#10;">
+      <created>1394855550445</created>
+      <updated>1394855550445</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1128,8 +1136,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Remove sqllite from production and test" />
-    <MESSAGE value="Update gemfile to set production and development environments for sqlite3 and pg gems" />
     <MESSAGE value="Modified application.js and production.rb for activeadmin." />
     <MESSAGE value="Add config.assets.initialize_on_precompile = false to application.rb" />
     <MESSAGE value="Add config.assets.initialize_on_precompile = false to application.rb&#10;" />
@@ -1153,7 +1159,9 @@
     <MESSAGE value="Remove thumbnail image from articles index in active admin" />
     <MESSAGE value="Add if statement to articles and pages." />
     <MESSAGE value="Remove images from active admin for articles and pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove images from active admin for articles and pages" />
+    <MESSAGE value="Add images from active admin for articles and pages&#10;" />
+    <MESSAGE value="Remove images from active admin for articles and pages&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove images from active admin for articles and pages&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1468,14 +1476,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="8" column="20" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="459" selection-end="466" vertical-scroll-proportion="0.62827224" vertical-offset="90" max-vertical-offset="885">
+        <state line="23" column="23" selection-start="492" selection-end="492" vertical-scroll-proportion="0.66753924" vertical-offset="90" max-vertical-offset="885">
           <folding />
         </state>
       </provider>

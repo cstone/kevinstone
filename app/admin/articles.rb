@@ -20,7 +20,9 @@ ActiveAdmin.register Article do
 
   index do
     selectable_column
-    column :article_image
+    column :article_image do |article|
+      image_tag(article.article_image.url(:thumb))
+    end
     column :title
     column :allow_comments
     default_actions
