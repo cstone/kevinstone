@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/articles.rb" afterPath="$PROJECT_DIR$/app/admin/articles.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/pages.rb" afterPath="$PROJECT_DIR$/app/admin/pages.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -35,19 +34,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="articles.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="492" selection-end="492" vertical-scroll-proportion="0.66753924" vertical-offset="90" max-vertical-offset="885">
+            <state line="23" column="23" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+            <state line="7" column="22" selection-start="150" selection-end="150" vertical-scroll-proportion="0.2748691" vertical-offset="0" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -124,8 +123,8 @@
         <option value="$PROJECT_DIR$/app/views/videos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/admin/pages.rb" />
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
+        <option value="$PROJECT_DIR$/app/admin/pages.rb" />
       </list>
     </option>
   </component>
@@ -1075,7 +1074,11 @@
       <created>1394855550445</created>
       <updated>1394855550445</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Add images from active admin for articles and pages&#10;">
+      <created>1394855995804</created>
+      <updated>1394855995804</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1159,9 +1162,9 @@
     <MESSAGE value="Remove thumbnail image from articles index in active admin" />
     <MESSAGE value="Add if statement to articles and pages." />
     <MESSAGE value="Remove images from active admin for articles and pages" />
-    <MESSAGE value="Add images from active admin for articles and pages&#10;" />
     <MESSAGE value="Remove images from active admin for articles and pages&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove images from active admin for articles and pages&#10;" />
+    <MESSAGE value="Add images from active admin for articles and pages&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add images from active admin for articles and pages&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1474,16 +1477,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
+    <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="23" column="23" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
+    <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="492" selection-end="492" vertical-scroll-proportion="0.66753924" vertical-offset="90" max-vertical-offset="885">
+        <state line="7" column="22" selection-start="150" selection-end="150" vertical-scroll-proportion="0.2748691" vertical-offset="0" max-vertical-offset="780">
           <folding />
         </state>
       </provider>

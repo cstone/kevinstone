@@ -5,9 +5,7 @@ ActiveAdmin.register Page do
 
   index do
     selectable_column
-    column :page_image do |page|
-      image_tag(page.page_image.url(:thumb))
-    end
+    column :page_image
     column :name
     column :permalink
     default_actions
