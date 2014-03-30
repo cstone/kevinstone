@@ -37,7 +37,7 @@
       <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.84334207" vertical-offset="7" max-vertical-offset="855">
+            <state line="32" column="24" selection-start="655" selection-end="655" vertical-scroll-proportion="0.5483029" vertical-offset="270" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -1130,7 +1130,15 @@
       <created>1396220220360</created>
       <updated>1396220220360</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Remove article_images from index in ActiveAdmin">
+      <created>1396220864107</created>
+      <updated>1396220864107</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Add article_images from index in ActiveAdmin&#10;">
+      <created>1396221308005</created>
+      <updated>1396221308006</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1191,8 +1199,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Remove CKeditor database&#10;" />
-    <MESSAGE value="Remove CKeditor uploaders&#10;" />
     <MESSAGE value="Remove page_image block in admin/page.rb" />
     <MESSAGE value="Remove debug params from application template" />
     <MESSAGE value="Add page image to activeadmin index page" />
@@ -1216,7 +1222,9 @@
     <MESSAGE value="Add image from page index page activeadmin&#10;" />
     <MESSAGE value="Add hr to videos index view" />
     <MESSAGE value="Add simple_format to videos index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add simple_format to videos index" />
+    <MESSAGE value="Remove article_images from index in ActiveAdmin" />
+    <MESSAGE value="Add article_images from index in ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add article_images from index in ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1492,7 +1500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.84334207" vertical-offset="7" max-vertical-offset="855">
+        <state line="32" column="24" selection-start="655" selection-end="655" vertical-scroll-proportion="0.5483029" vertical-offset="270" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
