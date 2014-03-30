@@ -18,9 +18,9 @@ ActiveAdmin.register Article do
 
 
 
-  index do |article|
+  index do
     selectable_column
-    column :article_image do
+    column :article_image do |article|
       image_tag(article.article_image.url(:thumb))
     end
     column :title
