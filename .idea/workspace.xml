@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/videos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/videos/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/contact_us.rb" afterPath="$PROJECT_DIR$/config/initializers/contact_us.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -43,10 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/videos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="225" selection-end="225" vertical-scroll-proportion="0.2924791" vertical-offset="0" max-vertical-offset="359">
+            <state line="7" column="25" selection-start="225" selection-end="225" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_us.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/initializers/contact_us.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="39" selection-start="889" selection-end="889" vertical-scroll-proportion="0.7702703" vertical-offset="120" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -111,7 +120,6 @@
         <option value="$PROJECT_DIR$/app/admin/videos.rb" />
         <option value="$PROJECT_DIR$/app/views/contact_us/contacts/new_formtastic.html.erb" />
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/contact_us.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb" />
         <option value="$PROJECT_DIR$/app/admin/pages.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
@@ -125,6 +133,7 @@
         <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/videos/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/contact_us.rb" />
       </list>
     </option>
   </component>
@@ -195,15 +204,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="videos" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,11 +218,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1132,7 +1133,11 @@
       <created>1396239168498</created>
       <updated>1396239168499</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Add simple_format to videos index">
+      <created>1396239840289</created>
+      <updated>1396239840289</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1206,7 +1211,6 @@
     <MESSAGE value="Remove image from page index page activeadmin" />
     <MESSAGE value="Add image from page index page activeadmin&#10;" />
     <MESSAGE value="Add hr to videos index view" />
-    <MESSAGE value="Add simple_format to videos index" />
     <MESSAGE value="Remove article_images from index in ActiveAdmin" />
     <MESSAGE value="Add article_images from index in ActiveAdmin&#10;" />
     <MESSAGE value="Remove article_images from index in ActiveAdmin&#10;" />
@@ -1218,7 +1222,8 @@
     <MESSAGE value="Remove simple_format method in views" />
     <MESSAGE value="Add html_safe method to views" />
     <MESSAGE value="Add html_safe to conact_content in application controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add html_safe to conact_content in application controller" />
+    <MESSAGE value="Add simple_format to videos index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add simple_format to videos index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1431,13 +1436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/contact_us.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="27" selection-start="441" selection-end="441" vertical-scroll-proportion="0.44510385" vertical-offset="0" max-vertical-offset="337">
@@ -1524,7 +1522,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/videos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="225" selection-end="225" vertical-scroll-proportion="0.2924791" vertical-offset="0" max-vertical-offset="359">
+        <state line="7" column="25" selection-start="225" selection-end="225" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/contact_us.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="889" selection-end="889" vertical-scroll-proportion="0.7702703" vertical-offset="120" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
