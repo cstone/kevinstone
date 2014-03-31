@@ -13,7 +13,7 @@ Kevinstone::Application.routes.draw do
   resources :pages, except: [:show]
 
   #get '/contacts', to: 'contact_us/contacts#create', as: :contacts_create
-  #match '/contact', to: 'contact_us/contacts#new', as: :contact_kevin
+  match '/contact', to: 'contact_us/contacts#new', as: :contact_kevin
   match 'blog', to: 'articles#index', as: :blog
   match ':id', to: 'pages#show', as: :page
 
