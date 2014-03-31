@@ -6,7 +6,7 @@
 <h3><%= @video.title %></h3>
 <p><iframe width="640" height="360" src="//www.youtube.com/embed/<%= @video.source %>?rel=0" frameborder="0" allowfullscreen></iframe></p>
 <p><small>Published <%= time_ago_in_words(@video.created_at) %> ago</small></p>
-<p><%= raw(@video.description) %></p>
+<p><%= @video.description.html_safe %></p>
 <p>&nbsp;</p>
 
 <% if @video.allow_comments %>

@@ -10,7 +10,7 @@
         <td width="80%"><%= link_to photo.title, photo %></td>
       </tr>
       <tr>
-        <td valign="top"><%= photo.description.truncate(200) %></td>
+        <td valign="top"><%= photo.description.truncate(200).html_safe %></td>
       </tr>
   <% end %>
 </table>

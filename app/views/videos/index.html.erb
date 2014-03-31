@@ -5,7 +5,7 @@
 <h3>Videos</h3>
 <% @videos.each do |video| %>
     <h4><%= link_to video.title, video %></h4>
-    <p><%= truncate(video.description, :length => 250) %></p>
+    <p><%= video.description.truncate(250).html_safe %></p>
     <hr>
 <% end %>
 <%= paginate @videos %>

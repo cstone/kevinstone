@@ -5,7 +5,7 @@
 </ol>
 <h3><%= @event.title %></h3>
 <p><%= @event.time %> <% if @event.venue %>at <%= @event.venue %><% end %></p>
-<p><%= raw @event.description %></p>
+<p><%= @event.description.html_safe %></p>
 
 <table class="table table-bordered">
   <tr>

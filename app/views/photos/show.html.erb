@@ -8,7 +8,7 @@
 <p><%= image_tag @photo.photo_image, class: 'img-responsive' %></p>
 
 <br/>
-<p><%= @photo.description %></p>
+<p><%= @photo.description.html_safe %></p>
 <br/>
 <% if @photo.allow_comments %>
 <%= render 'layouts/structure/disqus-thread' %>

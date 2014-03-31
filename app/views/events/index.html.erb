@@ -8,7 +8,7 @@
 <h4><%= link_to event.title, event %></h4>
 <p><strong><%= event.time %></strong></p>
 <p><%= event.venue %></p>
-<p><%= event.description.truncate(250) %></p>
+<p><%= event.description.truncate(250).html_safe %></p>
 <p><%= link_to 'More Info', event, class: 'btn btn-sm btn-primary pull-right' %></p>
 <br/>
 <hr>
