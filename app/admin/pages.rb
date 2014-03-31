@@ -26,7 +26,7 @@ ActiveAdmin.register Page do
   end
 
 
-  show do
+  show do |page|
     attributes_table do
       row :id
       row :name
@@ -34,7 +34,7 @@ ActiveAdmin.register Page do
       row :content do
         simple_format page.content
       end
-      row :page_image do |page|
+      row :page_image do
         image_tag(page.page_image.url(:thumb))
       end
       row :created_at
