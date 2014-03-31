@@ -37,7 +37,7 @@
       <file leaf-file-name="articles.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="49" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="885">
+            <state line="23" column="49" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -46,43 +46,16 @@
       <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="44" selection-start="234" selection-end="234" vertical-scroll-proportion="0.19582245" vertical-offset="60" max-vertical-offset="885">
+            <state line="10" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.3916449" vertical-offset="0" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_image_uploader.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/page_image_uploader.rb">
+      <file leaf-file-name="photos.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1110">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_top-nav.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.25" vertical-offset="150" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="2" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1245">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="780">
+            <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -250,6 +223,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="uploaders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1176,7 +1167,11 @@
       <created>1396307019091</created>
       <updated>1396307019091</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="Add if statement to pages url to index page in ActiveAdmin&#10;">
+      <created>1396308526197</created>
+      <updated>1396308526197</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1237,7 +1232,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Remove article_images from index in ActiveAdmin" />
     <MESSAGE value="Add article_images from index in ActiveAdmin&#10;" />
     <MESSAGE value="Remove article_images from index in ActiveAdmin&#10;" />
     <MESSAGE value="Update contact us email address" />
@@ -1262,7 +1256,8 @@
     <MESSAGE value="Edit contact_kevin_path route" />
     <MESSAGE value="Add pages url to show page in ActiveAdmin" />
     <MESSAGE value="Add if statement to pages url to show page in ActiveAdmin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add if statement to pages url to show page in ActiveAdmin&#10;" />
+    <MESSAGE value="Add if statement to pages url to index page in ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add if statement to pages url to index page in ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1538,13 +1533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="227" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/time_formats.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
@@ -1562,13 +1550,6 @@
     <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="24" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="49" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
@@ -1594,9 +1575,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="49" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="234" selection-end="234" vertical-scroll-proportion="0.19582245" vertical-offset="60" max-vertical-offset="885">
+        <state line="10" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.3916449" vertical-offset="0" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
