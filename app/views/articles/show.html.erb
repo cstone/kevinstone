@@ -8,7 +8,7 @@
 <p><% if @article.article_image.url %>
     <%= image_tag @article.article_image.url, class: 'img-float-right img-responsive' %>
 <% end %>
-<%= simple_format(@article.body) %></p>
+<%= @article.body %></p>
 <% if @article.allow_comments %>
 <%= render 'layouts/structure/disqus-thread' %>
 <% end %>
