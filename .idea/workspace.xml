@@ -46,7 +46,7 @@
       <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="34" selection-start="162" selection-end="162" vertical-scroll-proportion="0.27415144" vertical-offset="0" max-vertical-offset="825">
+            <state line="6" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.23498695" vertical-offset="0" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -1175,7 +1175,11 @@
       <created>1396308862106</created>
       <updated>1396308862106</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="Add page image to activeadmin index page">
+      <created>1396309224579</created>
+      <updated>1396309224579</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1236,7 +1240,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Remove article_images from index in ActiveAdmin&#10;" />
     <MESSAGE value="Update contact us email address" />
     <MESSAGE value="Add check for empty events" />
     <MESSAGE value="Add check for empty events&#10;" />
@@ -1261,7 +1264,8 @@
     <MESSAGE value="Add if statement to pages url to show page in ActiveAdmin&#10;" />
     <MESSAGE value="Add if statement to pages url to index page in ActiveAdmin&#10;" />
     <MESSAGE value="Remove if statement to pages url to index page in ActiveAdmin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove if statement to pages url to index page in ActiveAdmin&#10;" />
+    <MESSAGE value="Add page image to activeadmin index page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add page image to activeadmin index page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1595,7 +1599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="162" selection-end="162" vertical-scroll-proportion="0.27415144" vertical-offset="0" max-vertical-offset="825">
+        <state line="6" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.23498695" vertical-offset="0" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
