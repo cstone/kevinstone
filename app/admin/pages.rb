@@ -5,23 +5,12 @@ ActiveAdmin.register Page do
 
   index do
     selectable_column
-    column :photo_image do |page|
-      image_tag(page.page_image.url(:thumb))
+    column :page_image do |image|
+      image_tag(image.page_image.url(:thumb))
     end
     column :name
     column :permalink
     default_actions
-  end
-
-  form :html => { :enctype => "multipart/form-data" } do |f|
-    f.inputs do
-      f.input :name
-      f.input :permalink
-      f.input :content, as: :html_editor
-      f.file_field :page_image
-      f.input :remove_page_image, as: :boolean, label: 'Check here to remove the current image.'
-      end
-    f.actions
   end
 
   #form :html => { :enctype => "multipart/form-data" } do |f|
@@ -29,15 +18,26 @@ ActiveAdmin.register Page do
   #    f.input :name
   #    f.input :permalink
   #    f.input :content, as: :html_editor
-  #  end
-  #  f.inputs "Image" do
-  #    f.file_field :page_image
-  #  end
-  #  f.inputs "Remove Current Image" do
+  #    f.file_field :page_image, as: :file
   #    f.input :remove_page_image, as: :boolean, label: 'Check here to remove the current image.'
-  #  end
+  #    end
   #  f.actions
   #end
+
+  form do |f|
+    f.inputs do
+      f.input :name
+      f.input :permalink
+      f.input :content, as: :html_editor
+    end
+    f.inputs "Image" do
+      f.file_field :page_image
+    end
+    f.inputs "Remove Current Image" do
+      f.input :remove_page_image, as: :boolean, label: 'Check here to remove the current image.'
+    end
+    f.actions
+  end
 
 
   show do |page|

@@ -46,7 +46,16 @@
       <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="32" selection-start="194" selection-end="194" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
+            <state line="5" column="10" selection-start="105" selection-end="105" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photos.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -232,6 +241,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1186,7 +1213,15 @@
       <created>1396310672010</created>
       <updated>1396310672010</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Add page image url to activeadmin index page">
+      <created>1396310899132</created>
+      <updated>1396310899132</updated>
+    </task>
+    <task id="LOCAL-00163" summary="Update form input in activeadmin">
+      <created>1396314731006</created>
+      <updated>1396314731006</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1247,8 +1282,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Remove image from page index in ActiveAdmin" />
-    <MESSAGE value="Change simple_format method to raw in events show view" />
     <MESSAGE value="Remove simple_format method in views" />
     <MESSAGE value="Add html_safe method to views" />
     <MESSAGE value="Add html_safe to conact_content in application controller" />
@@ -1272,7 +1305,9 @@
     <MESSAGE value="Add page image to activeadmin index page&#10;" />
     <MESSAGE value="Add image_url to activeadmin index page&#10;" />
     <MESSAGE value="Add default scope to video model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add default scope to video model" />
+    <MESSAGE value="Add page image url to activeadmin index page" />
+    <MESSAGE value="Update form input in activeadmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update form input in activeadmin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1526,7 +1561,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="55" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1587,13 +1622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.1953125" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="2" selection-start="181" selection-end="219" vertical-scroll-proportion="0.1953125" vertical-offset="0" max-vertical-offset="384">
@@ -1608,9 +1636,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="194" selection-end="194" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
+        <state line="5" column="10" selection-start="105" selection-end="105" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
