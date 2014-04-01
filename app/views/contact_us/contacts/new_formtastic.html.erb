@@ -4,7 +4,7 @@
 </ol>
 <h3><%= @contact_name %></h3>
 <p><%= @contact_content %></p>
-<%= semantic_form_for @contact, :url => contacts_create_path do |f| %>
+<%= semantic_form_for @contact, :url => contact_kevin_path do |f| %>
   <%= f.input :name, :label => t('.name') if ContactUs.require_name %>
   <%= f.input :email, :label => t('.email') %>
   <%= f.input :subject, :label => t('.subject') if ContactUs.require_subject %>

@@ -12,8 +12,8 @@ Kevinstone::Application.routes.draw do
   resources :events
   resources :pages, except: [:show]
 
-  #get '/contacts', to: 'contact_us/contacts#create', as: :contacts_create
-  match '/contact', to: 'contact_us/contacts#new', as: :contact_kevin
+  get '/contact-us', to: 'contact_us/contacts#new', as: :contact_us
+  post '/contact', to: 'contact_us/contacts#new', as: :contact_kevin
   match 'blog', to: 'articles#index', as: :blog
   match ':id', to: 'pages#show', as: :page
 
