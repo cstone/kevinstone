@@ -46,7 +46,7 @@
       <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="10" selection-start="105" selection-end="105" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="1020">
+            <state line="6" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.23498695" vertical-offset="0" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -223,24 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="uploaders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1221,7 +1203,11 @@
       <created>1396314731006</created>
       <updated>1396314731006</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="Update form input in activeadmin&#10;">
+      <created>1396315556443</created>
+      <updated>1396315556443</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1282,7 +1268,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Remove simple_format method in views" />
     <MESSAGE value="Add html_safe method to views" />
     <MESSAGE value="Add html_safe to conact_content in application controller" />
     <MESSAGE value="Add simple_format to videos index" />
@@ -1307,7 +1292,8 @@
     <MESSAGE value="Add default scope to video model" />
     <MESSAGE value="Add page image url to activeadmin index page" />
     <MESSAGE value="Update form input in activeadmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update form input in activeadmin" />
+    <MESSAGE value="Update form input in activeadmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update form input in activeadmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1601,13 +1587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/page_image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="49" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
@@ -1643,9 +1622,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/page_image_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="28" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.8203125" vertical-offset="540" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="105" selection-end="105" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="1020">
+        <state line="6" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.23498695" vertical-offset="0" max-vertical-offset="975">
           <folding />
         </state>
       </provider>
