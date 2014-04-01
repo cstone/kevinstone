@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/photos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/photos/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -43,19 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/photos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="54" selection-start="274" selection-end="274" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_top-nav.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="100" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.9275766" vertical-offset="27" max-vertical-offset="585">
+            <state line="11" column="8" selection-start="427" selection-end="427" vertical-scroll-proportion="0.4768786" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -112,7 +103,6 @@
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/videos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/photos/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
@@ -134,6 +124,7 @@
         <option value="$PROJECT_DIR$/app/admin/photos.rb" />
         <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/photos/index.html.erb" />
       </list>
     </option>
   </component>
@@ -230,33 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="structure" />
+              <option name="myItemId" value="photos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1265,7 +1230,11 @@
       <created>1396329171715</created>
       <updated>1396329171715</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="Change contact us path">
+      <created>1396357634109</created>
+      <updated>1396357634109</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1326,7 +1295,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add contacts_create path" />
     <MESSAGE value="Add datetime picker gem to ActiveAdmin" />
     <MESSAGE value="Add custom time formats initializer" />
     <MESSAGE value="Add datetime_picker" />
@@ -1351,7 +1319,8 @@
     <MESSAGE value="Add contact routes" />
     <MESSAGE value="Update photos in activeadmin" />
     <MESSAGE value="Format time events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Format time events" />
+    <MESSAGE value="Change contact us path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change contact us path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1475,13 +1444,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/photos/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="35" selection-start="377" selection-end="377" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/photos/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="70" selection-start="510" selection-end="510" vertical-scroll-proportion="0.5555556" vertical-offset="0" max-vertical-offset="345">
           <folding />
         </state>
       </provider>
@@ -1677,6 +1639,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="100" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.925" vertical-offset="27" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="54" selection-start="274" selection-end="274" vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="21" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
@@ -1684,16 +1660,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/photos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="54" selection-start="274" selection-end="274" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="100" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.9275766" vertical-offset="27" max-vertical-offset="585">
+        <state line="11" column="8" selection-start="427" selection-end="427" vertical-scroll-proportion="0.4768786" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
