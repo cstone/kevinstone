@@ -25,6 +25,6 @@ ContactUs.setup do |config|
   #config.form_gem = nil
 
   # Configure the redirect URL after a successful submission
-  config.success_redirect = '/thank-you'
+  config.success_redirect = 'http://kevinjstone.herokuapp.com/thank-you'
 
 end
