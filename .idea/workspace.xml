@@ -46,7 +46,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/photos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="661" selection-end="661" vertical-scroll-proportion="0.7369942" vertical-offset="0" max-vertical-offset="495">
+            <state line="15" column="16" selection-start="592" selection-end="592" vertical-scroll-proportion="0.5635838" vertical-offset="30" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -236,6 +236,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1246,7 +1264,11 @@
       <created>1396374381068</created>
       <updated>1396374381069</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="Add if statement to photos thumbnail on index page.&#10;">
+      <created>1396374778973</created>
+      <updated>1396374778973</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1674,7 +1696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/photos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="661" selection-end="661" vertical-scroll-proportion="0.7369942" vertical-offset="0" max-vertical-offset="495">
+        <state line="15" column="16" selection-start="592" selection-end="592" vertical-scroll-proportion="0.5635838" vertical-offset="30" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
