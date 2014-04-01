@@ -46,7 +46,7 @@
       <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="200" selection-end="200" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
+            <state line="8" column="50" selection-start="212" selection-end="212" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -1183,7 +1183,11 @@
       <created>1396309767490</created>
       <updated>1396309767490</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="Add image_url to activeadmin index page&#10;">
+      <created>1396309947696</created>
+      <updated>1396309947696</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1244,7 +1248,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add check for empty events" />
     <MESSAGE value="Add check for empty events&#10;" />
     <MESSAGE value="Remove image from page index in ActiveAdmin" />
     <MESSAGE value="Change simple_format method to raw in events show view" />
@@ -1269,7 +1272,8 @@
     <MESSAGE value="Remove if statement to pages url to index page in ActiveAdmin&#10;" />
     <MESSAGE value="Add page image to activeadmin index page" />
     <MESSAGE value="Add page image to activeadmin index page&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add page image to activeadmin index page&#10;" />
+    <MESSAGE value="Add image_url to activeadmin index page&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add image_url to activeadmin index page&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1587,13 +1591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22905">
@@ -1601,9 +1598,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="200" selection-end="200" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
+        <state line="8" column="50" selection-start="212" selection-end="212" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
