@@ -3,5 +3,9 @@ class Article < ActiveRecord::Base
 
   mount_uploader :article_image, ArticleImageUploader
 
+  #validations
+  validates_presence_of :title, :body
+  validates_uniqueness_of :title
+
   default_scope order('created_at DESC')
 end
