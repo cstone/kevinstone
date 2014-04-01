@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/pages.rb" afterPath="$PROJECT_DIR$/app/admin/pages.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/video.rb" afterPath="$PROJECT_DIR$/app/models/video.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -52,15 +52,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photos.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -83,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_side-facebook.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_right-side.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_side-twitter.html.erb" />
@@ -134,6 +124,7 @@
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/admin/pages.rb" />
+        <option value="$PROJECT_DIR$/app/models/video.rb" />
       </list>
     </option>
   </component>
@@ -240,7 +231,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1187,7 +1178,11 @@
       <created>1396309947696</created>
       <updated>1396309947696</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Add image_url to activeadmin index page&#10;">
+      <created>1396310437507</created>
+      <updated>1396310437507</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1279,16 +1274,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="0" selection-start="5906" selection-end="5906" vertical-scroll-proportion="0.7083333" vertical-offset="2850" max-vertical-offset="3225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.5874674" vertical-offset="0" max-vertical-offset="383" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="50" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1185" />
@@ -1600,7 +1585,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+        <state line="5" column="6" selection-start="68" selection-end="105" vertical-scroll-proportion="0.1953125" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="181" selection-end="219" vertical-scroll-proportion="0.1953125" vertical-offset="0" max-vertical-offset="384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/video.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="40" selection-start="139" selection-end="139" vertical-scroll-proportion="0.1171875" vertical-offset="0" max-vertical-offset="384">
           <folding />
         </state>
       </provider>
