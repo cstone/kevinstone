@@ -37,7 +37,7 @@
       <file leaf-file-name="photos.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="44" selection-start="143" selection-end="143" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="825">
+            <state line="5" column="48" selection-start="149" selection-end="149" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -1283,7 +1283,15 @@
       <created>1396376611626</created>
       <updated>1396376611627</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="Add thumbnail to photos index page in ActiveAdmin">
+      <created>1396396015005</created>
+      <updated>1396396015005</updated>
+    </task>
+    <task id="LOCAL-00184" summary="Add thumbnail to photos index page in ActiveAdmin&#10;">
+      <created>1396396211447</created>
+      <updated>1396396211447</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1344,8 +1352,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Edit contact_kevin_path route" />
-    <MESSAGE value="Add pages url to show page in ActiveAdmin" />
     <MESSAGE value="Add if statement to pages url to show page in ActiveAdmin&#10;" />
     <MESSAGE value="Add if statement to pages url to index page in ActiveAdmin&#10;" />
     <MESSAGE value="Remove if statement to pages url to index page in ActiveAdmin&#10;" />
@@ -1369,7 +1375,9 @@
     <MESSAGE value="Add page validations" />
     <MESSAGE value="Add photo validations" />
     <MESSAGE value="Add video validations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add video validations" />
+    <MESSAGE value="Add thumbnail to photos index page in ActiveAdmin" />
+    <MESSAGE value="Add thumbnail to photos index page in ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add thumbnail to photos index page in ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1715,7 +1723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="143" selection-end="143" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="825">
+        <state line="5" column="48" selection-start="149" selection-end="149" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
