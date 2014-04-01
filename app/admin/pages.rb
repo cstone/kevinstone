@@ -13,20 +13,31 @@ ActiveAdmin.register Page do
     default_actions
   end
 
-  form do |f|
+  form :html => { :enctype => "multipart/form-data" } do |f|
     f.inputs do
       f.input :name
       f.input :permalink
       f.input :content, as: :html_editor
-    end
-    f.inputs "Image" do
       f.file_field :page_image
-    end
-    f.inputs "Remove Current Image" do
       f.input :remove_page_image, as: :boolean, label: 'Check here to remove the current image.'
-    end
+      end
     f.actions
   end
+
+  #form :html => { :enctype => "multipart/form-data" } do |f|
+  #  f.inputs do
+  #    f.input :name
+  #    f.input :permalink
+  #    f.input :content, as: :html_editor
+  #  end
+  #  f.inputs "Image" do
+  #    f.file_field :page_image
+  #  end
+  #  f.inputs "Remove Current Image" do
+  #    f.input :remove_page_image, as: :boolean, label: 'Check here to remove the current image.'
+  #  end
+  #  f.actions
+  #end
 
 
   show do |page|
