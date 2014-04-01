@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/photos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/photos/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -1238,7 +1237,11 @@
       <created>1396373942226</created>
       <updated>1396373942226</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="Add if statement to photos thumbnail on index page.&#10;">
+      <created>1396374372484</created>
+      <updated>1396374372484</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1299,7 +1302,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add custom time formats initializer" />
     <MESSAGE value="Add datetime_picker" />
     <MESSAGE value="Add routes for contact form" />
     <MESSAGE value="Edit pages view in ActiveAdmin" />
@@ -1324,7 +1326,8 @@
     <MESSAGE value="Format time events" />
     <MESSAGE value="Change contact us path" />
     <MESSAGE value="Add if statement to photos thumbnail on index page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add if statement to photos thumbnail on index page." />
+    <MESSAGE value="Add if statement to photos thumbnail on index page.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add if statement to photos thumbnail on index page.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
