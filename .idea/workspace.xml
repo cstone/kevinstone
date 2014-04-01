@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/video.rb" afterPath="$PROJECT_DIR$/app/models/video.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/pages.rb" afterPath="$PROJECT_DIR$/app/admin/pages.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="50" selection-start="212" selection-end="212" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
+            <state line="8" column="32" selection-start="194" selection-end="194" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -123,8 +123,8 @@
         <option value="$PROJECT_DIR$/config/initializers/time_formats.rb" />
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/admin/pages.rb" />
         <option value="$PROJECT_DIR$/app/models/video.rb" />
+        <option value="$PROJECT_DIR$/app/admin/pages.rb" />
       </list>
     </option>
   </component>
@@ -1182,7 +1182,11 @@
       <created>1396310437507</created>
       <updated>1396310437507</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Add default scope to video model">
+      <created>1396310672010</created>
+      <updated>1396310672010</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1243,7 +1247,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add check for empty events&#10;" />
     <MESSAGE value="Remove image from page index in ActiveAdmin" />
     <MESSAGE value="Change simple_format method to raw in events show view" />
     <MESSAGE value="Remove simple_format method in views" />
@@ -1268,7 +1271,8 @@
     <MESSAGE value="Add page image to activeadmin index page" />
     <MESSAGE value="Add page image to activeadmin index page&#10;" />
     <MESSAGE value="Add image_url to activeadmin index page&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add image_url to activeadmin index page&#10;" />
+    <MESSAGE value="Add default scope to video model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add default scope to video model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1606,7 +1610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="212" selection-end="212" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
+        <state line="8" column="32" selection-start="194" selection-end="194" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
