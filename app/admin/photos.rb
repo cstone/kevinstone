@@ -34,8 +34,10 @@ ActiveAdmin.register Photo do
       row :description do
         simple_format photo.description
       end
-      row :photo_image do
-        image_tag(photo.photo_image.url(:thumb))
+      if photo.photo_image.url
+        row :photo_image do
+          image_tag(photo.photo_image.url(:thumb))
+        end
       end
       row :allow_comments
       row :created_at
@@ -43,5 +45,5 @@ ActiveAdmin.register Photo do
     end
     active_admin_comments
   end
-  
+
 end
