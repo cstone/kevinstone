@@ -46,7 +46,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/photos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="427" selection-end="427" vertical-scroll-proportion="0.4768786" vertical-offset="0" max-vertical-offset="375">
+            <state line="17" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="0.7369942" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -1234,7 +1234,11 @@
       <created>1396357634109</created>
       <updated>1396357634109</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="Add if statement to photos thumbnail on index page.">
+      <created>1396373942226</created>
+      <updated>1396373942226</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1295,7 +1299,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add datetime picker gem to ActiveAdmin" />
     <MESSAGE value="Add custom time formats initializer" />
     <MESSAGE value="Add datetime_picker" />
     <MESSAGE value="Add routes for contact form" />
@@ -1320,7 +1323,8 @@
     <MESSAGE value="Update photos in activeadmin" />
     <MESSAGE value="Format time events" />
     <MESSAGE value="Change contact us path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change contact us path" />
+    <MESSAGE value="Add if statement to photos thumbnail on index page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add if statement to photos thumbnail on index page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1662,7 +1666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/photos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="427" selection-end="427" vertical-scroll-proportion="0.4768786" vertical-offset="0" max-vertical-offset="375">
+        <state line="17" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="0.7369942" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>

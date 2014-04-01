@@ -5,15 +5,22 @@
 <h3>Photos</h3>
 <table width="100%" class="table table-bordered">
   <% @photos.each do |photo| %>
+      <% if photo.photo_image.url(:thumb) %>
       <tr>
-        <% if photo.photo_image.url(:thumb) %>
         <td width="20%" rowspan="2" valign="top"><%= link_to(image_tag(photo.photo_image.url(:thumb), class: 'thumbnail'), photo) %></td>
-        <% end %>
         <td width="80%"><%= link_to photo.title, photo %></td>
       </tr>
       <tr>
         <td valign="top"><%= photo.description.truncate(200).html_safe %></td>
       </tr>
+      <% else %>
+          <tr>
+            <td width="80%"><%= link_to photo.title, photo %></td>
+          </tr>
+          <tr>
+            <td valign="top"><%= photo.description.truncate(200).html_safe %></td>
+          </tr>
+      <% end %>
   <% end %>
 </table>
 <%= paginate @photos %>
