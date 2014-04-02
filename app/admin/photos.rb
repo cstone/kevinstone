@@ -2,9 +2,6 @@ ActiveAdmin.register Photo do
 
   index do
     selectable_column
-      column :photo_image do |photo|
-        image_tag(photo.photo_image.url)
-      end
     column :title
     column :allow_comments
     default_actions
@@ -12,10 +9,14 @@ ActiveAdmin.register Photo do
 
 
   form do |f|
-    f.inputs do
+    f.inputs "Photos", :multipart => true do
       f.input :title
       f.input :description, as: :html_editor
       f.input :allow_comments
+      f.input :photo_image, :as => :file, :hint => f.object.photo_image.present? \
+    ? f.template.image_tag(f.object.photo_image.url(:thumb))
+      : f.template.content_tag(:span, "no photo yet")
+      f.input :photo_image_cache, :as => :hidden
     end
     f.inputs "Image" do
       f.file_field :photo_image
