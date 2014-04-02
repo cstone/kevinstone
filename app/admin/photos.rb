@@ -18,9 +18,9 @@ ActiveAdmin.register Photo do
       : f.template.content_tag(:span, "no photo yet")
       f.input :photo_image_cache, :as => :hidden
     end
-    f.inputs "Image" do
-      f.file_field :photo_image
-    end
+    #f.inputs "Image" do
+    #  f.file_field :photo_image
+    #end
     f.inputs "Remove Current Image" do
       f.input :remove_photo_image, as: :boolean, label: 'Check here to remove the current image.'
     end
