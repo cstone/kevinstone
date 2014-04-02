@@ -3,7 +3,7 @@ ActiveAdmin.register Photo do
   index do
     selectable_column
     column :photo_image do |photo|
-      image_tag photo.url(:thumb)
+      image_tag photo.photo_image.url
     end
     column :title
     column :allow_comments

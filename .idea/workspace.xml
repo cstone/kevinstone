@@ -37,7 +37,7 @@
       <file leaf-file-name="photos.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="120" selection-end="120" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="885">
+            <state line="5" column="37" selection-start="136" selection-end="136" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -1323,7 +1323,11 @@
       <created>1396400677932</created>
       <updated>1396400677932</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="Add .url(:thumb) to index in ActiveAdmin&#10;">
+      <created>1396401611243</created>
+      <updated>1396401611243</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1755,7 +1759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="120" selection-end="120" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="885">
+        <state line="5" column="37" selection-start="136" selection-end="136" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
