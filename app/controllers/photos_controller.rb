@@ -80,4 +80,15 @@ class PhotosController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+
+  def gallery
+    @photo = Photo.find(params[:id])
+    @photos = @photo.page(params[:page]).per(1)
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.json { render json: @photo }
+    end
+  end
 end
