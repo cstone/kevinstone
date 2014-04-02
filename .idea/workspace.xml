@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/events.rb" afterPath="$PROJECT_DIR$/app/admin/events.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -34,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_upcoming-events.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_upcoming-events.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="392" selection-end="419" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
+            <state line="8" column="74" selection-start="337" selection-end="337" vertical-scroll-proportion="0.3560831" vertical-offset="0" max-vertical-offset="337">
               <folding />
             </state>
           </provider>
@@ -88,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="events.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="8" selection-start="769" selection-end="806" vertical-scroll-proportion="0.966759" vertical-offset="281" max-vertical-offset="840">
+            <state line="42" column="8" selection-start="769" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -191,12 +191,12 @@
         <option value="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/gallery.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb" />
         <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/show.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/time_formats.rb" />
         <option value="$PROJECT_DIR$/app/admin/events.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb" />
       </list>
     </option>
   </component>
@@ -1553,7 +1553,11 @@
       <created>1396458211859</created>
       <updated>1396458211859</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="Add :my_format to events show page&#10;">
+      <created>1396458718525</created>
+      <updated>1396458718525</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1614,7 +1618,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add thumbnail to photos index page in ActiveAdmin&#10;" />
     <MESSAGE value="Add column :photo_image to index in ActiveAdmin" />
     <MESSAGE value="Add .url(:thumb) to index in ActiveAdmin&#10;" />
     <MESSAGE value="Remove .url(:thumb) to index in ActiveAdmin&#10;" />
@@ -1639,7 +1642,8 @@
     <MESSAGE value="Add formatted time to index page in ActiveAdmin&#10;" />
     <MESSAGE value="Change default datetime format" />
     <MESSAGE value="Add :date_only to time_formats.rb&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add :date_only to time_formats.rb&#10;" />
+    <MESSAGE value="Add :my_format to events show page&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add :my_format to events show page&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1912,13 +1916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="392" selection-end="419" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="27" selection-start="291" selection-end="291" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
@@ -1949,7 +1946,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="8" selection-start="769" selection-end="806" vertical-scroll-proportion="0.966759" vertical-offset="281" max-vertical-offset="840">
+        <state line="42" column="8" selection-start="769" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="74" selection-start="337" selection-end="337" vertical-scroll-proportion="0.3560831" vertical-offset="0" max-vertical-offset="337">
           <folding />
         </state>
       </provider>
