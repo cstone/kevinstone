@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
+    <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="Add auto_link method to pages show view&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/show.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -91,7 +91,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="302" selection-end="302" vertical-scroll-proportion="0.3821656" vertical-offset="0" max-vertical-offset="314">
+            <state line="8" column="27" selection-start="291" selection-end="291" vertical-scroll-proportion="0.3821656" vertical-offset="0" max-vertical-offset="314">
               <folding />
             </state>
           </provider>
@@ -1493,7 +1493,11 @@
       <created>1396452389772</created>
       <updated>1396452389772</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="Add auto_link method to pages show view">
+      <created>1396454794459</created>
+      <updated>1396454794460</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1554,7 +1558,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add article validations" />
     <MESSAGE value="Add dynamic content validations&#10;" />
     <MESSAGE value="Add page validations" />
     <MESSAGE value="Add photo validations" />
@@ -1579,7 +1582,8 @@
     <MESSAGE value="Add pagination to top of photo gallery page." />
     <MESSAGE value="Add my formatted time with .to_formatted_s(:my_format) to event times." />
     <MESSAGE value="Add space in my formatted time with .to_formatted_s(:my_format) to event times.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add space in my formatted time with .to_formatted_s(:my_format) to event times.&#10;" />
+    <MESSAGE value="Add auto_link method to pages show view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add auto_link method to pages show view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1887,7 +1891,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="302" selection-end="302" vertical-scroll-proportion="0.3821656" vertical-offset="0" max-vertical-offset="314">
+        <state line="8" column="27" selection-start="291" selection-end="291" vertical-scroll-proportion="0.3821656" vertical-offset="0" max-vertical-offset="314">
           <folding />
         </state>
       </provider>
