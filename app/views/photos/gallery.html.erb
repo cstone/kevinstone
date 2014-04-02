@@ -10,8 +10,7 @@
 <br/>
 <p><%= @photo.description.html_safe %></p>
 <br/>
-<%= paginate @photos %>
-<br/>
+
 <% if @photo.allow_comments %>
     <%= render 'layouts/structure/disqus-thread' %>
 <% end %>

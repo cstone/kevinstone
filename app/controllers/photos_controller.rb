@@ -87,8 +87,8 @@ class PhotosController < ApplicationController
     @photos = @photo.page(params[:page]).per(1)
 
     respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @photo }
+      format.html # gallery.html.erb
+      format.json { render json: @photos }
     end
   end
 end

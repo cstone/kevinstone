@@ -5,6 +5,8 @@ Kevinstone::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
+  get '/gallery', to: 'photos#gallery', as: :gallery
+
   resources :articles
   resources :videos
   resources :photos
@@ -13,7 +15,7 @@ Kevinstone::Application.routes.draw do
   resources :pages, except: [:show]
 
 
-  get '/gallery', to 'photos#gallery', as: :gallery
+
   get '/contact-us', to: 'contact_us/contacts#new', as: :contact_us
   post '/contact', to: 'contact_us/contacts#new', as: :contact_kevin
   match 'blog', to: 'articles#index', as: :blog
