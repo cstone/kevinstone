@@ -1,3 +1,5 @@
+<%= paginate @photos %>
+
 <% @photos.each do |photo| %>
 <h4><%= photo.title %></h4>
 <p><%= image_tag photo.photo_image.url, class: 'img-responsive' %></p>
