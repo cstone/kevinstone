@@ -12,6 +12,8 @@ Kevinstone::Application.routes.draw do
   resources :events
   resources :pages, except: [:show]
 
+
+  get '/gallery', to 'photos#gallery', as: :gallery
   get '/contact-us', to: 'contact_us/contacts#new', as: :contact_us
   post '/contact', to: 'contact_us/contacts#new', as: :contact_kevin
   match 'blog', to: 'articles#index', as: :blog

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/dashboard.rb" afterPath="$PROJECT_DIR$/app/admin/dashboard.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -15,10 +15,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/kevinstone@routes__kevinstone.coverage" NAME="routes: kevinstone Coverage Results" MODIFIED="1396408674742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kevinstone" />
+    <SUITE FILE_PATH="coverage/kevinstone@routes__kevinstone.coverage" NAME="routes: kevinstone Coverage Results" MODIFIED="1396410588934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kevinstone" />
     <SUITE FILE_PATH="coverage/kevinstone@db_migrate__kevinstone.coverage" NAME="db:migrate: kevinstone Coverage Results" MODIFIED="1394498865031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kevinstone" />
     <SUITE FILE_PATH="coverage/kevinstone@contact_us_copy_views__kevinstone.coverage" NAME="contact_us:copy_views: kevinstone Coverage Results" MODIFIED="1394396995462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kevinstone" />
-    <SUITE FILE_PATH="coverage/kevinstone@Development__kevinstone.coverage" NAME="Development: kevinstone Coverage Results" MODIFIED="1396273775315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kevinstone" />
+    <SUITE FILE_PATH="coverage/kevinstone@Development__kevinstone.coverage" NAME="Development: kevinstone Coverage Results" MODIFIED="1396410974004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kevinstone" />
     <SUITE FILE_PATH="coverage/kevinstone@db_rollback__kevinstone.coverage" NAME="db:rollback: kevinstone Coverage Results" MODIFIED="1394592765438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kevinstone" />
     <SUITE FILE_PATH="coverage/kevinstone@contact_us_install__kevinstone.coverage" NAME="contact_us:install: kevinstone Coverage Results" MODIFIED="1394395928073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kevinstone" />
   </component>
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dashboard.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/dashboard.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="1" selection-start="182" selection-end="455" vertical-scroll-proportion="0.20833333" vertical-offset="0" max-vertical-offset="855">
+            <state line="5" column="1" selection-start="182" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -55,7 +55,16 @@
       <file leaf-file-name="photos_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/photos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="20" selection-start="1992" selection-end="1992" vertical-scroll-proportion="0.0" vertical-offset="941" max-vertical-offset="1500">
+            <state line="82" column="0" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="1500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="51" selection-start="351" selection-end="351" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -65,7 +74,9 @@
         <entry file="file://$PROJECT_DIR$/app/views/photos/gallery.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="5" selection-start="420" selection-end="420" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="330">
-              <folding />
+              <folding>
+                <marker date="1396408490000" expanded="true" signature="22:166" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,7 +85,12 @@
         <entry file="file://$PROJECT_DIR$/app/views/photos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="0" selection-start="630" selection-end="653" vertical-scroll-proportion="-10.375" vertical-offset="36" max-vertical-offset="390">
-              <folding />
+              <folding>
+                <marker date="1396375710000" expanded="true" signature="22:105" placeholder="..." />
+                <marker date="1396375710000" expanded="true" signature="171:628" placeholder="..." />
+                <marker date="1396375710000" expanded="true" signature="259:472" placeholder="..." />
+                <marker date="1396375710000" expanded="true" signature="483:574" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,15 +107,15 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28755">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28635">
               <folding>
-                <marker date="1396408769000" expanded="true" signature="59:100931" placeholder="..." />
-                <marker date="1396408769000" expanded="true" signature="98:214" placeholder="..." />
-                <marker date="1396408769000" expanded="true" signature="192:214" placeholder="..." />
-                <marker date="1396408769000" expanded="true" signature="100834:100920" placeholder="..." />
-                <marker date="1396408769000" expanded="true" signature="100834:100905" placeholder="..." />
-                <marker date="1396408769000" expanded="true" signature="100834:100892" placeholder="..." />
-                <marker date="1396408769000" expanded="true" signature="100835:100874" placeholder="..." />
+                <marker date="1396411050000" expanded="true" signature="59:100840" placeholder="..." />
+                <marker date="1396411050000" expanded="true" signature="98:214" placeholder="..." />
+                <marker date="1396411050000" expanded="true" signature="192:214" placeholder="..." />
+                <marker date="1396411050000" expanded="true" signature="100743:100829" placeholder="..." />
+                <marker date="1396411050000" expanded="true" signature="100743:100814" placeholder="..." />
+                <marker date="1396411050000" expanded="true" signature="100743:100801" placeholder="..." />
+                <marker date="1396411050000" expanded="true" signature="100744:100783" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -118,15 +134,6 @@
         <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="37" column="6" selection-start="936" selection-end="960" vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pages.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="7" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -188,7 +195,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" />
         <option value="$PROJECT_DIR$/config/initializers/time_formats.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/contact_us/contacts/new_formtastic.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/contact_us.rb" />
         <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
@@ -205,6 +211,7 @@
         <option value="$PROJECT_DIR$/app/views/photos/gallery.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
         <option value="$PROJECT_DIR$/app/admin/dashboard.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -275,33 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kevinstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photos" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,7 +340,7 @@
       <recent name="$PROJECT_DIR$/app/views/layouts" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.routes: kevinstone">
+  <component name="RunManager" selected="Rails.Development: kevinstone">
     <configuration default="false" name="db:migrate: kevinstone" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="kevinstone" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1455,7 +1436,11 @@
       <created>1396408567963</created>
       <updated>1396408567963</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="Remove ActiveAdmin Dashboard content">
+      <created>1396408794711</created>
+      <updated>1396408794712</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1516,7 +1501,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Update photos show page" />
     <MESSAGE value="Add contact routes" />
     <MESSAGE value="Update photos in activeadmin" />
     <MESSAGE value="Format time events" />
@@ -1541,7 +1525,8 @@
     <MESSAGE value="Add articles to activeadmin dashboard" />
     <MESSAGE value="Add articles to activeadmin dashboard&#10;" />
     <MESSAGE value="Add photo gallery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add photo gallery" />
+    <MESSAGE value="Remove ActiveAdmin Dashboard content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove ActiveAdmin Dashboard content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1772,13 +1757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.703125" vertical-offset="0" max-vertical-offset="1245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_top-nav.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="100" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.925" vertical-offset="27" max-vertical-offset="585">
@@ -1860,13 +1838,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22905">
           <folding>
-            <marker date="1396408769000" expanded="true" signature="59:100931" placeholder="..." />
-            <marker date="1396408769000" expanded="true" signature="98:214" placeholder="..." />
-            <marker date="1396408769000" expanded="true" signature="192:214" placeholder="..." />
-            <marker date="1396408769000" expanded="true" signature="100834:100920" placeholder="..." />
-            <marker date="1396408769000" expanded="true" signature="100834:100905" placeholder="..." />
-            <marker date="1396408769000" expanded="true" signature="100834:100892" placeholder="..." />
-            <marker date="1396408769000" expanded="true" signature="100835:100874" placeholder="..." />
+            <marker date="1396411050000" expanded="true" signature="59:100840" placeholder="..." />
+            <marker date="1396411050000" expanded="true" signature="98:214" placeholder="..." />
+            <marker date="1396411050000" expanded="true" signature="192:214" placeholder="..." />
+            <marker date="1396411050000" expanded="true" signature="100743:100829" placeholder="..." />
+            <marker date="1396411050000" expanded="true" signature="100743:100814" placeholder="..." />
+            <marker date="1396411050000" expanded="true" signature="100743:100801" placeholder="..." />
+            <marker date="1396411050000" expanded="true" signature="100744:100783" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1881,27 +1859,41 @@
     <entry file="file://$PROJECT_DIR$/app/views/photos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="630" selection-end="653" vertical-scroll-proportion="-10.375" vertical-offset="36" max-vertical-offset="390">
-          <folding />
+          <folding>
+            <marker date="1396375710000" expanded="true" signature="22:105" placeholder="..." />
+            <marker date="1396375710000" expanded="true" signature="171:628" placeholder="..." />
+            <marker date="1396375710000" expanded="true" signature="259:472" placeholder="..." />
+            <marker date="1396375710000" expanded="true" signature="483:574" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/photos/gallery.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="5" selection-start="420" selection-end="420" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="330">
+          <folding>
+            <marker date="1396408490000" expanded="true" signature="22:166" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/dashboard.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="182" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/photos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="20" selection-start="1992" selection-end="1992" vertical-scroll-proportion="0.0" vertical-offset="941" max-vertical-offset="1500">
+        <state line="82" column="0" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/dashboard.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="182" selection-end="455" vertical-scroll-proportion="0.20833333" vertical-offset="0" max-vertical-offset="855">
+        <state line="15" column="51" selection-start="351" selection-end="351" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
