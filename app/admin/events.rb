@@ -1,9 +1,9 @@
 ActiveAdmin.register Event do
 
-  index do |model|
+  index do
       selectable_column
       column :title
-      column :time do
+      column :time do |model|
         model.time.to_formatted_s(:my_format)
       end
       default_actions

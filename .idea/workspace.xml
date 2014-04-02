@@ -91,7 +91,7 @@
       <file leaf-file-name="events.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="199" selection-end="199" vertical-scroll-proportion="0.3739612" vertical-offset="0" max-vertical-offset="810">
+            <state line="5" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="0.20775624" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -1519,7 +1519,11 @@
       <created>1396455083018</created>
       <updated>1396455083018</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="Add formatted time to index page in ActiveAdmin">
+      <created>1396456196010</created>
+      <updated>1396456196010</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1580,7 +1584,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add page validations" />
     <MESSAGE value="Add photo validations" />
     <MESSAGE value="Add video validations" />
     <MESSAGE value="Add thumbnail to photos index page in ActiveAdmin" />
@@ -1605,7 +1608,8 @@
     <MESSAGE value="Add space in my formatted time with .to_formatted_s(:my_format) to event times.&#10;" />
     <MESSAGE value="Add auto_link method to pages show view" />
     <MESSAGE value="Remove deprecated auto_link method to pages show view&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove deprecated auto_link method to pages show view&#10;" />
+    <MESSAGE value="Add formatted time to index page in ActiveAdmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add formatted time to index page in ActiveAdmin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1915,7 +1919,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="199" selection-end="199" vertical-scroll-proportion="0.3739612" vertical-offset="0" max-vertical-offset="810">
+        <state line="5" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="0.20775624" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
