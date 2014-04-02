@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/photos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -52,19 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photos_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="photos_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/photos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="1500">
+            <state line="84" column="13" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.88611114" vertical-offset="941" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="51" selection-start="351" selection-end="351" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="1275">
+            <state line="15" column="51" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -107,15 +107,15 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28635">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28695">
               <folding>
-                <marker date="1396411050000" expanded="true" signature="59:100840" placeholder="..." />
-                <marker date="1396411050000" expanded="true" signature="98:214" placeholder="..." />
-                <marker date="1396411050000" expanded="true" signature="192:214" placeholder="..." />
-                <marker date="1396411050000" expanded="true" signature="100743:100829" placeholder="..." />
-                <marker date="1396411050000" expanded="true" signature="100743:100814" placeholder="..." />
-                <marker date="1396411050000" expanded="true" signature="100743:100801" placeholder="..." />
-                <marker date="1396411050000" expanded="true" signature="100744:100783" placeholder="..." />
+                <marker date="1396411390000" expanded="true" signature="59:101049" placeholder="..." />
+                <marker date="1396411390000" expanded="true" signature="98:214" placeholder="..." />
+                <marker date="1396411390000" expanded="true" signature="192:214" placeholder="..." />
+                <marker date="1396411390000" expanded="true" signature="100952:101038" placeholder="..." />
+                <marker date="1396411390000" expanded="true" signature="100952:101023" placeholder="..." />
+                <marker date="1396411390000" expanded="true" signature="100952:101010" placeholder="..." />
+                <marker date="1396411390000" expanded="true" signature="100953:100992" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -209,9 +209,9 @@
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/app/views/photos/gallery.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
         <option value="$PROJECT_DIR$/app/admin/dashboard.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
       </list>
     </option>
   </component>
@@ -1440,7 +1440,11 @@
       <created>1396408794711</created>
       <updated>1396408794712</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Add gallery route to routes.rb">
+      <created>1396411119133</created>
+      <updated>1396411119133</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1501,7 +1505,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add contact routes" />
     <MESSAGE value="Update photos in activeadmin" />
     <MESSAGE value="Format time events" />
     <MESSAGE value="Change contact us path" />
@@ -1526,7 +1529,8 @@
     <MESSAGE value="Add articles to activeadmin dashboard&#10;" />
     <MESSAGE value="Add photo gallery" />
     <MESSAGE value="Remove ActiveAdmin Dashboard content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove ActiveAdmin Dashboard content" />
+    <MESSAGE value="Add gallery route to routes.rb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gallery route to routes.rb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1838,13 +1842,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22905">
           <folding>
-            <marker date="1396411050000" expanded="true" signature="59:100840" placeholder="..." />
-            <marker date="1396411050000" expanded="true" signature="98:214" placeholder="..." />
-            <marker date="1396411050000" expanded="true" signature="192:214" placeholder="..." />
-            <marker date="1396411050000" expanded="true" signature="100743:100829" placeholder="..." />
-            <marker date="1396411050000" expanded="true" signature="100743:100814" placeholder="..." />
-            <marker date="1396411050000" expanded="true" signature="100743:100801" placeholder="..." />
-            <marker date="1396411050000" expanded="true" signature="100744:100783" placeholder="..." />
+            <marker date="1396411390000" expanded="true" signature="59:101049" placeholder="..." />
+            <marker date="1396411390000" expanded="true" signature="98:214" placeholder="..." />
+            <marker date="1396411390000" expanded="true" signature="192:214" placeholder="..." />
+            <marker date="1396411390000" expanded="true" signature="100952:101038" placeholder="..." />
+            <marker date="1396411390000" expanded="true" signature="100952:101023" placeholder="..." />
+            <marker date="1396411390000" expanded="true" signature="100952:101010" placeholder="..." />
+            <marker date="1396411390000" expanded="true" signature="100953:100992" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1884,16 +1888,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/photos_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="1500">
+        <state line="15" column="51" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/photos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="351" selection-end="351" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="1275">
+        <state line="84" column="13" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.88611114" vertical-offset="941" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
