@@ -10,6 +10,24 @@ ActiveAdmin.register_page "Dashboard" do
       end
     end
 
+    columns do
+      column do
+        panel "Recent Articles" do
+          ul do
+            Article.order('created_at DESC').limit(5).map do |article|
+              li link_to(article.title, admin_article_path(article))
+            end
+          end
+        end
+      end
+
+
+      column do
+
+      end
+    end
+
+
     # Here is an example of a simple dashboard with columns and panels.
     #
     # columns do
