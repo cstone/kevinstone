@@ -83,8 +83,7 @@ class PhotosController < ApplicationController
 
 
   def gallery
-    @photo = Photo.first
-    @photos = @photo.page(params[:page]).per(1)
+    @photos = Photo.page(params[:page]).per(1)
 
     respond_to do |format|
       format.html # gallery.html.erb

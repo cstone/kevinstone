@@ -5,7 +5,7 @@ Kevinstone::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
-  get '/gallery', to: 'photos#gallery', as: :gallery
+  get '/gallery(/:page)', to: 'photos#gallery', as: :gallery
 
   resources :articles
   resources :videos

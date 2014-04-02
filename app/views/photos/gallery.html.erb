@@ -1,16 +1,8 @@
-<ol class="breadcrumb">
-  <li><%= link_to 'Home', root_path %></li>
-  <li><%= link_to 'Photos', photos_path %></li>
-  <li class="active"><%= @photo.title %></li>
-</ol>
-<h4><%= @photo.title %></h4>
-<p><small><%= time_ago_in_words(@photo.created_at) %> ago</small></p>
-<p><%= image_tag @photo.photo_image, class: 'img-responsive' %></p>
-
-<br/>
-<p><%= @photo.description.html_safe %></p>
-<br/>
-
-<% if @photo.allow_comments %>
-    <%= render 'layouts/structure/disqus-thread' %>
+<% @photos.each do |photo| %>
+<h4><%= photo.title %></h4>
+<p><%= image_tag photo.photo_image.url, class: 'img-responsive' %></p>
+<p><%= time_ago_in_words photo.created_at %> ago</p>
+<p><%= photo.description.html_safe %></p>
 <% end %>
+
+<%= paginate @photos %>
