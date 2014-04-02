@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/events.rb" afterPath="$PROJECT_DIR$/app/admin/events.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/time_formats.rb" afterPath="$PROJECT_DIR$/config/initializers/time_formats.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -71,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time_formats.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="time_formats.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/time_formats.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="29" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="8" column="52" selection-start="251" selection-end="251" vertical-scroll-proportion="0.33240998" vertical-offset="0" max-vertical-offset="361">
               <folding />
             </state>
           </provider>
@@ -89,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="events.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="44" selection-start="805" selection-end="805" vertical-scroll-proportion="0.80055404" vertical-offset="341" max-vertical-offset="840">
+            <state line="42" column="44" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -196,8 +195,8 @@
         <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb" />
-        <option value="$PROJECT_DIR$/config/initializers/time_formats.rb" />
         <option value="$PROJECT_DIR$/app/admin/events.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/time_formats.rb" />
       </list>
     </option>
   </component>
@@ -1562,7 +1561,11 @@
       <created>1396459651394</created>
       <updated>1396459651394</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="Add :date_time to show events view in ActiveAdmin">
+      <created>1396460029098</created>
+      <updated>1396460029098</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1589,7 +1592,7 @@
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32459018" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32459018" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3229508" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1623,7 +1626,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add .url(:thumb) to index in ActiveAdmin&#10;" />
     <MESSAGE value="Remove .url(:thumb) to index in ActiveAdmin&#10;" />
     <MESSAGE value="Add if statement for photo_image" />
     <MESSAGE value="Remove image from index page" />
@@ -1648,7 +1650,8 @@
     <MESSAGE value="Add :date_only to time_formats.rb&#10;" />
     <MESSAGE value="Add :my_format to events show page&#10;" />
     <MESSAGE value="Change truncate limit to 100" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change truncate limit to 100" />
+    <MESSAGE value="Add :date_time to show events view in ActiveAdmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add :date_time to show events view in ActiveAdmin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1949,16 +1952,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/time_formats.rb">
+    <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="42" column="44" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/time_formats.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="44" selection-start="805" selection-end="805" vertical-scroll-proportion="0.80055404" vertical-offset="341" max-vertical-offset="840">
+        <state line="8" column="52" selection-start="251" selection-end="251" vertical-scroll-proportion="0.33240998" vertical-offset="0" max-vertical-offset="361">
           <folding />
         </state>
       </provider>
