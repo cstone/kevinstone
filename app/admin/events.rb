@@ -40,7 +40,7 @@ ActiveAdmin.register Event do
       row :zip
       row :url
       row :time do
-        event.time.to_formatted_s(:my_format)
+        event.time.to_formatted_s(:date_time)
       end
       row :created_at
       row :updated_at
