@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a06da9-0cb3-478a-823f-b2fc19cfde2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/events.rb" afterPath="$PROJECT_DIR$/app/admin/events.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/time_formats.rb" afterPath="$PROJECT_DIR$/config/initializers/time_formats.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevinstone.iws" />
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time_formats.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="time_formats.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/time_formats.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="40" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
               <folding />
             </state>
           </provider>
@@ -88,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="events.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="0.20775624" vertical-offset="0" max-vertical-offset="810">
+            <state line="5" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -194,9 +194,9 @@
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_upcoming-events.html.erb" />
         <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
-        <option value="$PROJECT_DIR$/config/initializers/time_formats.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/show.html.erb" />
         <option value="$PROJECT_DIR$/app/admin/events.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/time_formats.rb" />
       </list>
     </option>
   </component>
@@ -268,6 +268,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevinstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1523,7 +1541,11 @@
       <created>1396456196010</created>
       <updated>1396456196010</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="Add formatted time to index page in ActiveAdmin&#10;">
+      <created>1396456416149</created>
+      <updated>1396456416149</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1584,7 +1606,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add photo validations" />
     <MESSAGE value="Add video validations" />
     <MESSAGE value="Add thumbnail to photos index page in ActiveAdmin" />
     <MESSAGE value="Add thumbnail to photos index page in ActiveAdmin&#10;" />
@@ -1609,7 +1630,8 @@
     <MESSAGE value="Add auto_link method to pages show view" />
     <MESSAGE value="Remove deprecated auto_link method to pages show view&#10;" />
     <MESSAGE value="Add formatted time to index page in ActiveAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add formatted time to index page in ActiveAdmin" />
+    <MESSAGE value="Add formatted time to index page in ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add formatted time to index page in ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1889,13 +1911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/time_formats.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="27" selection-start="291" selection-end="291" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
@@ -1919,7 +1934,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/events.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="0.20775624" vertical-offset="0" max-vertical-offset="810">
+        <state line="5" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/time_formats.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="362">
           <folding />
         </state>
       </provider>
