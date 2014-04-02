@@ -39,8 +39,10 @@ ActiveAdmin.register Article do
         simple_format article.body
       end
       row :allow_comments
-      row :article_image do
-        image_tag(article.article_image.url(:thumb))
+      if article.article_image.url
+        row :article_image do
+          image_tag(article.article_image.url(:thumb))
+        end
       end
       row :created_at
       row :updated_at

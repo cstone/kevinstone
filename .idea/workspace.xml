@@ -37,7 +37,7 @@
       <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="649" selection-end="649" vertical-scroll-proportion="0.14882506" vertical-offset="273" max-vertical-offset="855">
+            <state line="41" column="7" selection-start="952" selection-end="952" vertical-scroll-proportion="0.69712794" vertical-offset="348" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="photos.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="164" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="840">
+            <state line="37" column="6" selection-start="936" selection-end="960" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -1381,7 +1381,11 @@
       <created>1396403415102</created>
       <updated>1396403415102</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="Update articles form in activeadmin&#10;">
+      <created>1396403747449</created>
+      <updated>1396403747449</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1806,14 +1810,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="164" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="840">
+        <state line="37" column="6" selection-start="936" selection-end="960" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="649" selection-end="649" vertical-scroll-proportion="0.14882506" vertical-offset="273" max-vertical-offset="855">
+        <state line="41" column="7" selection-start="952" selection-end="952" vertical-scroll-proportion="0.69712794" vertical-offset="348" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
