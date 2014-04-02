@@ -6,9 +6,10 @@ ActiveAdmin.register Article do
       f.input :title
       f.input :body, as: :html_editor
       f.input :allow_comments
-    end
-    f.inputs "Image" do
-      f.file_field :article_image
+      f.input :article_image, :as => :file, :hint => f.object.article_image.present? \
+    ? f.template.image_tag(f.object.article_image.url(:thumb))
+      : f.template.content_tag(:span, "no photo yet")
+      f.input :article_image_cache, :as => :hidden
     end
     f.inputs "Remove Current Image" do
       f.input :remove_article_image, as: :boolean, label: 'Check here to remove the current image.'
