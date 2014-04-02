@@ -37,7 +37,7 @@
       <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="415" selection-end="415" vertical-scroll-proportion="0.4699739" vertical-offset="0" max-vertical-offset="900">
+            <state line="22" column="21" selection-start="649" selection-end="649" vertical-scroll-proportion="0.14882506" vertical-offset="273" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="photos.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="48" selection-start="298" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="840">
+            <state line="11" column="13" selection-start="164" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -1377,7 +1377,11 @@
       <created>1396402979139</created>
       <updated>1396402979139</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="Update articles form in activeadmin&#10;">
+      <created>1396403415102</created>
+      <updated>1396403415102</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1438,7 +1442,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add default scope to video model" />
     <MESSAGE value="Add page image url to activeadmin index page" />
     <MESSAGE value="Update form input in activeadmin" />
     <MESSAGE value="Update form input in activeadmin&#10;" />
@@ -1463,7 +1466,8 @@
     <MESSAGE value="Add if statement for photo_image" />
     <MESSAGE value="Remove image from index page" />
     <MESSAGE value="Update pages form in activeadmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update pages form in activeadmin" />
+    <MESSAGE value="Update articles form in activeadmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update articles form in activeadmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1793,13 +1797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="298" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="7" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="990">
@@ -1807,9 +1804,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="164" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="415" selection-end="415" vertical-scroll-proportion="0.4699739" vertical-offset="0" max-vertical-offset="900">
+        <state line="22" column="21" selection-start="649" selection-end="649" vertical-scroll-proportion="0.14882506" vertical-offset="273" max-vertical-offset="855">
           <folding />
         </state>
       </provider>

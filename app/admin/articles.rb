@@ -2,7 +2,7 @@ ActiveAdmin.register Article do
 
 
   form do |f|
-    f.inputs do
+    f.inputs "Articles", :multipart => true do
       f.input :title
       f.input :body, as: :html_editor
       f.input :allow_comments
@@ -21,9 +21,6 @@ ActiveAdmin.register Article do
 
   index do
     selectable_column
-    column :article_image do |article|
-      image_tag article.article_image.url(:thumb)
-    end
     column :title
     column :allow_comments
     default_actions
