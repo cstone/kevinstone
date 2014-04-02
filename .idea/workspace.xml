@@ -37,7 +37,16 @@
       <file leaf-file-name="photos.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="37" selection-start="136" selection-end="136" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="885">
+            <state line="7" column="9" selection-start="0" selection-end="1292" vertical-scroll-proportion="0.27415144" vertical-offset="0" max-vertical-offset="915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pages.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="21" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -265,6 +274,22 @@
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="97" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="99" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="102" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="897" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="97" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="99" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="102" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="897" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1327,7 +1352,11 @@
       <created>1396401611243</created>
       <updated>1396401611243</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="Remove .url(:thumb) to index in ActiveAdmin&#10;">
+      <created>1396401832832</created>
+      <updated>1396401832832</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1388,7 +1417,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Remove if statement to pages url to index page in ActiveAdmin&#10;" />
     <MESSAGE value="Add page image to activeadmin index page" />
     <MESSAGE value="Add page image to activeadmin index page&#10;" />
     <MESSAGE value="Add image_url to activeadmin index page&#10;" />
@@ -1413,7 +1441,8 @@
     <MESSAGE value="Add thumbnail to photos index page in ActiveAdmin&#10;" />
     <MESSAGE value="Add column :photo_image to index in ActiveAdmin" />
     <MESSAGE value="Add .url(:thumb) to index in ActiveAdmin&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .url(:thumb) to index in ActiveAdmin&#10;" />
+    <MESSAGE value="Remove .url(:thumb) to index in ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove .url(:thumb) to index in ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1673,13 +1702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="5" selection-start="1054" selection-end="1077" vertical-scroll-proportion="0.8125" vertical-offset="393" max-vertical-offset="975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="49" selection-start="518" selection-end="518" vertical-scroll-proportion="-0.1953125" vertical-offset="420" max-vertical-offset="885">
@@ -1757,9 +1779,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="37" selection-start="136" selection-end="136" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="885">
+        <state line="7" column="9" selection-start="0" selection-end="1292" vertical-scroll-proportion="0.27415144" vertical-offset="0" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
