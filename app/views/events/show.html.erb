@@ -4,7 +4,7 @@
   <li class="active"><%= @event.title %></li>
 </ol>
 <h3><%= @event.title %></h3>
-<p><%= @event.time %> <% if @event.venue %>at <%= @event.venue %><% end %></p>
+<p><%= @event.time.to_formatted_s(:my_format) %> <% if @event.venue %>at <%= @event.venue %><% end %></p>
 <p><%= @event.description.html_safe %></p>
 
 <table class="table table-bordered">
@@ -14,7 +14,7 @@
   </tr>
   <tr>
     <td width="8%"><strong>When:</strong></td>
-    <td width="92%"><%= @event.time %></td>
+    <td width="92%"><%= @event.time.to_formatted_s(:my_format) %></td>
   </tr>
   <% if !@event.venue.empty? %>
       <tr>

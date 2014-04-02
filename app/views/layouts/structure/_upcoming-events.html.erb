@@ -8,7 +8,7 @@
       <% @next_three_events.each do |event| %>
           <li class="list-group-item"><%= link_to event.title.truncate(25), event %>
             <br/>
-            <%= event.time %> </li>
+            <%= event.time.to_formatted_s(:my_format) %> </li>
       <% end %>
     </ul>
   </div>
