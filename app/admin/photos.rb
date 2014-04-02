@@ -2,7 +2,9 @@ ActiveAdmin.register Photo do
 
   index do
     selectable_column
-    column :photo_image.url(:thumb)
+    column :photo_image do |photo|
+      image_tag photo.url(:thumb)
+    end
     column :title
     column :allow_comments
     default_actions

@@ -37,7 +37,7 @@
       <file leaf-file-name="photos.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="35" selection-start="99" selection-end="99" vertical-scroll-proportion="0.15665796" vertical-offset="0" max-vertical-offset="855">
+            <state line="5" column="21" selection-start="120" selection-end="120" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -1319,7 +1319,11 @@
       <created>1396400078548</created>
       <updated>1396400078548</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="Add .url(:thumb) to index in ActiveAdmin&#10;">
+      <created>1396400677932</created>
+      <updated>1396400677932</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1380,7 +1384,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add if statement to pages url to index page in ActiveAdmin&#10;" />
     <MESSAGE value="Remove if statement to pages url to index page in ActiveAdmin&#10;" />
     <MESSAGE value="Add page image to activeadmin index page" />
     <MESSAGE value="Add page image to activeadmin index page&#10;" />
@@ -1405,7 +1408,8 @@
     <MESSAGE value="Add thumbnail to photos index page in ActiveAdmin" />
     <MESSAGE value="Add thumbnail to photos index page in ActiveAdmin&#10;" />
     <MESSAGE value="Add column :photo_image to index in ActiveAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add column :photo_image to index in ActiveAdmin" />
+    <MESSAGE value="Add .url(:thumb) to index in ActiveAdmin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .url(:thumb) to index in ActiveAdmin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1751,7 +1755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="99" selection-end="99" vertical-scroll-proportion="0.15665796" vertical-offset="0" max-vertical-offset="855">
+        <state line="5" column="21" selection-start="120" selection-end="120" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
