@@ -37,7 +37,7 @@
       <file leaf-file-name="photos.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="48" selection-start="149" selection-end="149" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="825">
+            <state line="5" column="39" selection-start="140" selection-end="140" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -1291,7 +1291,11 @@
       <created>1396396211447</created>
       <updated>1396396211447</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Add thumbnail to photos index page in ActiveAdmin&#10;">
+      <created>1396396709259</created>
+      <updated>1396396709260</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1723,7 +1727,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/photos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="48" selection-start="149" selection-end="149" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="825">
+        <state line="5" column="39" selection-start="140" selection-end="140" vertical-scroll-proportion="0.19582245" vertical-offset="0" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
