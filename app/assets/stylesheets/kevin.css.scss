@@ -195,9 +195,9 @@ footer {
   background-color: $tertiary-color;
   a {
     /*color: #428BCA;*/
-    color: $content-background;
-    :hover {
-      color: #FFFFFF;
+    color: $white;
+    &:hover {
+      color: $white;
     }
   }
 }
