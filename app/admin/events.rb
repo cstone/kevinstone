@@ -31,7 +31,7 @@ ActiveAdmin.register Event do
       row :id
       row :title
       row :description do
-      simple_format event.description
+      event.description.html_safe
     end
       row :venue
       row :address
