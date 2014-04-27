@@ -4,11 +4,7 @@
       <p>&copy;<%= Time.now.year %> <%= @site_title if @site_title %></p>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
-      <ul class="list-inline pull-right">
-        <li><a href="<%= @facebook_url if @facebook_url %>"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="<%= @twitter_url if @twitter_url %>"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="<%= @instagram_url if @instagram_url %>"><i class="fa fa-instagram"></i></a></li>
-      </ul>
+      <p class="pull-right">Developed by <%= link_to 'Stizelwebs.com', 'http://www.stizelwebs.com' %></p>
     </div>
   </div>
 </footer>
